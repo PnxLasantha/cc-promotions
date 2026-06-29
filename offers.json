@@ -298,94 +298,6 @@
   {
     "bank": "NTB",
     "card": "Amex",
-    "merchant": "KFC",
-    "offer": "30% Savings",
-    "validity": "Valid every Sat from 1st July to 31st August 2026",
-    "category": "Dining"
-  },
-  {
-    "bank": "NTB",
-    "card": "Amex",
-    "merchant": "Companion dines for free",
-    "offer": "Explorer cards",
-    "validity": "Valid every Mon to Wed till  30th June 2026",
-    "category": "Dining"
-  },
-  {
-    "bank": "NTB",
-    "card": "Amex",
-    "merchant": "Arabian Knights",
-    "offer": "15% Savings",
-    "validity": "Valid till 31st July 2026",
-    "category": "Dining"
-  },
-  {
-    "bank": "NTB",
-    "card": "Amex",
-    "merchant": "Food Studio - One Galle Face Mall",
-    "offer": "25% Savings",
-    "validity": "Valid till 30th June 2026",
-    "category": "Dining"
-  },
-  {
-    "bank": "NTB",
-    "card": "Amex",
-    "merchant": "Emperor's Wok - Hilton Colombo",
-    "offer": "Special savings",
-    "validity": "Valid till 30th June 2026",
-    "category": "Dining"
-  },
-  {
-    "bank": "NTB",
-    "card": "Amex",
-    "merchant": "KFC",
-    "offer": "30% Savings",
-    "validity": "Valid every Sat from 1st July to 31st August 2026",
-    "category": "Dining"
-  },
-  {
-    "bank": "NTB",
-    "card": "Amex",
-    "merchant": "Companion dines for free",
-    "offer": "Explorer cards",
-    "validity": "Valid every Mon to Wed till  30th June 2026",
-    "category": "Dining"
-  },
-  {
-    "bank": "NTB",
-    "card": "Amex",
-    "merchant": "Arabian Knights",
-    "offer": "15% Savings",
-    "validity": "Valid till 31st July 2026",
-    "category": "Dining"
-  },
-  {
-    "bank": "NTB",
-    "card": "Amex",
-    "merchant": "Food Studio - One Galle Face Mall",
-    "offer": "25% Savings",
-    "validity": "Valid till 30th June 2026",
-    "category": "Dining"
-  },
-  {
-    "bank": "NTB",
-    "card": "Amex",
-    "merchant": "Emperor's Wok - Hilton Colombo",
-    "offer": "Special savings",
-    "validity": "Valid till 30th June 2026",
-    "category": "Dining"
-  },
-  {
-    "bank": "NTB",
-    "card": "Amex",
-    "merchant": "KFC",
-    "offer": "30% Savings",
-    "validity": "Valid every Sat from 1st July to 31st August 2026",
-    "category": "Dining"
-  },
-  {
-    "bank": "NTB",
-    "card": "Amex",
     "merchant": "Hilton Colombo Residence - FLOW",
     "offer": "25% Savings",
     "validity": "Valid till 30th June 2026",
@@ -418,14 +330,6 @@
   {
     "bank": "NTB",
     "card": "Amex",
-    "merchant": "Companion dines for free",
-    "offer": "Explorer cards",
-    "validity": "Valid every Mon to Wed till  30th June 2026",
-    "category": "Dining"
-  },
-  {
-    "bank": "NTB",
-    "card": "Amex",
     "merchant": "Taj Samudra Colombo - Golden Dragon",
     "offer": "20% Savings",
     "validity": "Valid till  31st July 2026",
@@ -453,14 +357,6 @@
     "merchant": "The Bavarian German Restaurant",
     "offer": "30% Savings",
     "validity": "Valid from 1st July to 31st August 2026",
-    "category": "Dining"
-  },
-  {
-    "bank": "NTB",
-    "card": "Amex",
-    "merchant": "Arabian Knights",
-    "offer": "15% Savings",
-    "validity": "Valid till 31st July 2026",
     "category": "Dining"
   },
   {
@@ -858,14 +754,6 @@
   {
     "bank": "NTB",
     "card": "Amex",
-    "merchant": "Food Studio - One Galle Face Mall",
-    "offer": "25% Savings",
-    "validity": "Valid till 30th June 2026",
-    "category": "Dining"
-  },
-  {
-    "bank": "NTB",
-    "card": "Amex",
     "merchant": "Food Studio - CCC",
     "offer": "25% Savings",
     "validity": "Valid from 1st July to 30th July 2026",
@@ -938,129 +826,9 @@
   {
     "bank": "NTB",
     "card": "Amex",
-    "merchant": "Avani Kalutara Resort",
-    "offer": "Special Savings",
-    "validity": "Valid till 30th June 2026",
-    "category": "Hotel"
-  },
-  {
-    "bank": "NTB",
-    "card": "Amex",
-    "merchant": "Anantaya Resort & Spa, Chilaw",
-    "offer": "Up to 50% savings",
-    "validity": "Valid till 30th June 2026",
-    "category": "Hotel"
-  },
-  {
-    "bank": "NTB",
-    "card": "Amex",
-    "merchant": "Up to 12 Month 0% Extended Settlement Plans",
-    "offer": "Installment Plans",
-    "validity": "Valid till 30th June 2026",
-    "category": "Hotel"
-  },
-  {
-    "bank": "NTB",
-    "card": "Amex",
-    "merchant": "Anantaya Resort & Spa, Pasikudah",
-    "offer": "Up to 50% Savings",
-    "validity": "Valid till 30th June 2026",
-    "category": "Hotel"
-  },
-  {
-    "bank": "NTB",
-    "card": "Amex",
-    "merchant": "Anantara Peace Haven Tangalle Resort",
-    "offer": "Special Savings",
-    "validity": "Valid till 30th June 2026",
-    "category": "Hotel"
-  },
-  {
-    "bank": "NTB",
-    "card": "Amex",
-    "merchant": "Anantara Kalutara Resort",
-    "offer": "Special Savings",
-    "validity": "Valid till 30th June 2026",
-    "category": "Hotel"
-  },
-  {
-    "bank": "NTB",
-    "card": "Amex",
-    "merchant": "Avani Kalutara Resort",
-    "offer": "Special Savings",
-    "validity": "Valid till 30th June 2026",
-    "category": "Hotel"
-  },
-  {
-    "bank": "NTB",
-    "card": "Amex",
-    "merchant": "Anantaya Resort & Spa, Chilaw",
-    "offer": "Up to 50% savings",
-    "validity": "Valid till 30th June 2026",
-    "category": "Hotel"
-  },
-  {
-    "bank": "NTB",
-    "card": "Amex",
-    "merchant": "Up to 12 Month 0% Extended Settlement Plans",
-    "offer": "Installment Plans",
-    "validity": "Valid till 30th June 2026",
-    "category": "Hotel"
-  },
-  {
-    "bank": "NTB",
-    "card": "Amex",
-    "merchant": "Anantaya Resort & Spa, Pasikudah",
-    "offer": "Up to 50% Savings",
-    "validity": "Valid till 30th June 2026",
-    "category": "Hotel"
-  },
-  {
-    "bank": "NTB",
-    "card": "Amex",
-    "merchant": "Anantara Peace Haven Tangalle Resort",
-    "offer": "Special Savings",
-    "validity": "Valid till 30th June 2026",
-    "category": "Hotel"
-  },
-  {
-    "bank": "NTB",
-    "card": "Amex",
-    "merchant": "Anantara Kalutara Resort",
-    "offer": "Special Savings",
-    "validity": "Valid till 30th June 2026",
-    "category": "Hotel"
-  },
-  {
-    "bank": "NTB",
-    "card": "Amex",
-    "merchant": "Avani Kalutara Resort",
-    "offer": "Special Savings",
-    "validity": "Valid till 30th June 2026",
-    "category": "Hotel"
-  },
-  {
-    "bank": "NTB",
-    "card": "Amex",
     "merchant": "Wattura Resort & Spa",
     "offer": "Up to 35% savings",
     "validity": "Valid till 15th December 2026",
-    "category": "Hotel"
-  },
-  {
-    "bank": "NTB",
-    "card": "Amex",
-    "merchant": "Anantaya Resort & Spa, Chilaw",
-    "offer": "Up to 50% savings",
-    "validity": "Valid till 30th June 2026",
-    "category": "Hotel"
-  },
-  {
-    "bank": "NTB",
-    "card": "Amex",
-    "merchant": "Up to 12 Month 0% Extended Settlement Plans",
-    "offer": "Installment Plans",
-    "validity": "Valid till 30th June 2026",
     "category": "Hotel"
   },
   {
@@ -1157,14 +925,6 @@
     "merchant": "Taj Bentota Resort & Spa",
     "offer": "25% Savings",
     "validity": "Valid till 31st October 2026",
-    "category": "Hotel"
-  },
-  {
-    "bank": "NTB",
-    "card": "Amex",
-    "merchant": "Anantaya Resort & Spa, Pasikudah",
-    "offer": "Up to 50% Savings",
-    "validity": "Valid till 30th June 2026",
     "category": "Hotel"
   },
   {

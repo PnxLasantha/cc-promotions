@@ -182,6 +182,15 @@ async function scrapeSeylan(page, baseUrl, category) {
 
   all.push(...ntbHotels);
 
-  fs.writeFileSync('offers.json', JSON.stringify(all, null, 2));
-  console.log(`\nTotal: ${all.length} offers → offers.json`);
+  // Deduplicate by card + merchant (case-insensitive), keep first occurrence
+  const seen = new Set();
+  const deduped = all.filter(o => {
+    const key = `${o.card}|${o.merchant.toLowerCase().trim()}`;
+    if (seen.has(key)) return false;
+    seen.add(key);
+    return true;
+  });
+
+  fs.writeFileSync('offers.json', JSON.stringify(deduped, null, 2));
+  console.log(`\nTotal: ${deduped.length} offers (${all.length - deduped.length} dupes removed) → offers.json`);
 })();
