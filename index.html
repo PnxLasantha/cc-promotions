@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Credit Card Offers — Sri Lanka</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #f0f2f5; color: #1a1a1a; }
+
+  header {
+    background: #1a1a2e; color: #fff; padding: 20px 32px;
+    display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 12px;
+  }
+  header h1 { font-size: 1.4rem; font-weight: 700; letter-spacing: -0.3px; }
+  #total-count { font-size: 0.85rem; opacity: 0.7; margin-top: 2px; }
+
+  .filters {
+    background: #fff; padding: 14px 32px; border-bottom: 1px solid #e0e0e0;
+    display: flex; gap: 8px; flex-wrap: wrap; align-items: center; position: sticky; top: 0; z-index: 10;
+    box-shadow: 0 2px 8px rgba(0,0,0,.06);
+  }
+  .filter-label { font-size: 0.78rem; font-weight: 600; color: #888; text-transform: uppercase; letter-spacing: .5px; margin-right: 4px; }
+
+  .chip {
+    padding: 5px 14px; border-radius: 20px; border: 1.5px solid #d0d0d0;
+    font-size: 0.82rem; cursor: pointer; background: #fff; color: #444;
+    transition: all .15s; white-space: nowrap;
+  }
+  .chip:hover { border-color: #888; }
+  .chip.active { border-color: transparent; color: #fff; }
+  .chip.active.bank-ntb    { background: #0070c0; }
+  .chip.active.bank-seylan { background: #c00000; }
+  .chip.active.bank-all    { background: #333; }
+  .chip.active.cat-dining  { background: #d97706; }
+  .chip.active.cat-hotel   { background: #0891b2; }
+  .chip.active.cat-all     { background: #333; }
+  .chip.active.disc-all    { background: #333; }
+  .chip.active.disc-high   { background: #059669; }
+
+  .separator { width: 1px; height: 24px; background: #e0e0e0; margin: 0 4px; }
+
+  .search-wrap { margin-left: auto; }
+  #search { padding: 5px 12px; border: 1.5px solid #d0d0d0; border-radius: 20px; font-size: 0.82rem; width: 200px; outline: none; }
+  #search:focus { border-color: #0070c0; }
+
+  .content { padding: 24px 32px; }
+
+  .bank-section { margin-bottom: 32px; }
+  .bank-header {
+    display: flex; align-items: center; gap: 12px; margin-bottom: 16px; padding-bottom: 10px;
+    border-bottom: 2px solid #e0e0e0;
+  }
+  .bank-dot { width: 12px; height: 12px; border-radius: 50%; flex-shrink: 0; }
+  .bank-ntb-dot { background: #0070c0; }
+  .bank-seylan-dot { background: #c00000; }
+  .bank-name { font-size: 1rem; font-weight: 700; color: #333; }
+  .card-name { font-size: 0.78rem; font-weight: 600; color: #888; text-transform: uppercase; letter-spacing: .5px; }
+  .bank-count { margin-left: auto; font-size: 0.78rem; color: #aaa; }
+
+  .offers-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 12px;
+  }
+
+  .offer-card {
+    background: #fff; border-radius: 10px; padding: 14px 16px;
+    border: 1px solid #e8e8e8; transition: box-shadow .15s;
+  }
+  .offer-card:hover { box-shadow: 0 4px 16px rgba(0,0,0,.1); }
+
+  .offer-top { display: flex; justify-content: space-between; align-items: flex-start; gap: 8px; margin-bottom: 6px; }
+  .merchant { font-size: 0.88rem; font-weight: 600; color: #1a1a1a; line-height: 1.3; }
+  .cat-badge {
+    font-size: 0.7rem; font-weight: 700; padding: 2px 8px; border-radius: 10px;
+    white-space: nowrap; flex-shrink: 0; text-transform: uppercase; letter-spacing: .3px;
+  }
+  .cat-dining { background: #fef3c7; color: #92400e; }
+  .cat-hotel  { background: #e0f2fe; color: #075985; }
+
+  .offer-desc { font-size: 0.82rem; color: #555; line-height: 1.4; margin-bottom: 6px; }
+  .validity { font-size: 0.75rem; color: #999; }
+
+  .empty { padding: 48px; text-align: center; color: #aaa; font-size: 0.9rem; }
+
+  @media (max-width: 600px) {
+    header, .filters, .content { padding-left: 16px; padding-right: 16px; }
+    .search-wrap { margin-left: 0; width: 100%; }
+    #search { width: 100%; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div>
+    <h1>Credit Card Offers · Sri Lanka</h1>
+    <div id="total-count"></div>
+  </div>
+</header>
+
+<div class="filters">
+  <span class="filter-label">Bank</span>
+  <button class="chip active bank-all" data-filter="bank" data-value="all">All Banks</button>
+  <button class="chip bank-ntb" data-filter="bank" data-value="NTB">NTB</button>
+  <button class="chip bank-seylan" data-filter="bank" data-value="Seylan">Seylan</button>
+
+  <div class="separator"></div>
+
+  <span class="filter-label">Category</span>
+  <button class="chip active cat-all" data-filter="cat" data-value="all">All</button>
+  <button class="chip cat-dining" data-filter="cat" data-value="Dining">Dining</button>
+  <button class="chip cat-hotel" data-filter="cat" data-value="Hotel">Hotel</button>
+
+  <div class="separator"></div>
+
+  <span class="filter-label">Discount</span>
+  <button class="chip active disc-all" data-filter="disc" data-value="all">All</button>
+  <button class="chip disc-high" data-filter="disc" data-value="high">25%+</button>
+
+  <div class="separator"></div>
+
+  <div class="search-wrap">
+    <input id="search" type="text" placeholder="Search merchant...">
+  </div>
+</div>
+
+<div class="content" id="content"></div>
+
+<script>
+let allOffers = [];
+let filterBank = 'all';
+let filterCat  = 'all';
+let filterDisc = 'all';
+let filterText = '';
+
+function maxPct(offer) {
+  const nums = (offer || '').match(/\d+/g);
+  return nums ? Math.max(...nums.map(Number)) : 0;
+}
+
+const CARD_ORDER = ['NTB Credit', 'Amex', 'Seylan Credit'];
+
+function render() {
+  const filtered = allOffers.filter(o =>
+    (filterBank === 'all' || o.bank === filterBank) &&
+    (filterCat  === 'all' || o.category === filterCat) &&
+    (filterDisc === 'all' || maxPct(o.offer) > 25) &&
+    (!filterText || o.merchant.toLowerCase().includes(filterText) || o.offer.toLowerCase().includes(filterText))
+  );
+
+  document.getElementById('total-count').textContent = `${filtered.length} of ${allOffers.length} offers`;
+
+  // Group by card
+  const groups = {};
+  filtered.forEach(o => {
+    if (!groups[o.card]) groups[o.card] = { bank: o.bank, card: o.card, offers: [] };
+    groups[o.card].offers.push(o);
+  });
+
+  const content = document.getElementById('content');
+  if (filtered.length === 0) {
+    content.innerHTML = '<div class="empty">No offers match your filters.</div>';
+    return;
+  }
+
+  content.innerHTML = CARD_ORDER
+    .filter(card => groups[card])
+    .map(card => {
+      const g = groups[card];
+      const bankSlug = g.bank.toLowerCase();
+      return `
+        <div class="bank-section">
+          <div class="bank-header">
+            <div class="bank-dot bank-${bankSlug}-dot"></div>
+            <div>
+              <div class="bank-name">${g.bank} · ${g.card}</div>
+            </div>
+            <div class="bank-count">${g.offers.length} offer${g.offers.length !== 1 ? 's' : ''}</div>
+          </div>
+          <div class="offers-grid">
+            ${g.offers.map(o => `
+              <div class="offer-card">
+                <div class="offer-top">
+                  <div class="merchant">${esc(o.merchant)}</div>
+                  <span class="cat-badge cat-${o.category.toLowerCase()}">${o.category}</span>
+                </div>
+                ${o.offer ? `<div class="offer-desc">${esc(o.offer)}</div>` : ''}
+                ${o.validity ? `<div class="validity">${esc(o.validity)}</div>` : ''}
+              </div>
+            `).join('')}
+          </div>
+        </div>
+      `;
+    }).join('');
+}
+
+function esc(s) {
+  return (s || '').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+}
+
+// Filter chips
+document.querySelectorAll('.chip').forEach(btn => {
+  btn.addEventListener('click', () => {
+    const { filter, value } = btn.dataset;
+    // Deactivate siblings
+    document.querySelectorAll(`.chip[data-filter="${filter}"]`).forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    if (filter === 'bank') filterBank = value;
+    else if (filter === 'cat') filterCat = value;
+    else filterDisc = value;
+    render();
+  });
+});
+
+document.getElementById('search').addEventListener('input', e => {
+  filterText = e.target.value.toLowerCase().trim();
+  render();
+});
+
+fetch('offers.json')
+  .then(r => r.json())
+  .then(data => { allOffers = data; render(); })
+  .catch(() => {
+    document.getElementById('content').innerHTML = '<div class="empty">Could not load offers.json — run node scrape.js first.</div>';
+  });
+</script>
+</body>
+</html>
