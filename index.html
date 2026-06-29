@@ -36,7 +36,13 @@
   .chip.active.cat-hotel   { background: #0891b2; }
   .chip.active.cat-all     { background: #333; }
   .chip.active.disc-all    { background: #333; }
-  .chip.active.disc-high   { background: #059669; }
+  .chip.active[data-filter="disc"]:not(.disc-all) { background: #059669; }
+
+  #sort {
+    padding: 5px 10px; border: 1.5px solid #d0d0d0; border-radius: 20px;
+    font-size: 0.82rem; background: #fff; color: #444; cursor: pointer; outline: none;
+  }
+  #sort:focus { border-color: #059669; }
 
   .separator { width: 1px; height: 24px; background: #e0e0e0; margin: 0 4px; }
 
@@ -117,7 +123,17 @@
 
   <span class="filter-label">Discount</span>
   <button class="chip active disc-all" data-filter="disc" data-value="all">All</button>
-  <button class="chip disc-high" data-filter="disc" data-value="high">25%+</button>
+  <button class="chip" data-filter="disc" data-value="10">10%+</button>
+  <button class="chip" data-filter="disc" data-value="25">25%+</button>
+  <button class="chip" data-filter="disc" data-value="50">50%+</button>
+
+  <div class="separator"></div>
+
+  <span class="filter-label">Sort</span>
+  <select id="sort">
+    <option value="default">Default</option>
+    <option value="disc-desc">Discount ▾</option>
+  </select>
 
   <div class="separator"></div>
 
@@ -134,6 +150,7 @@ let filterBank = 'all';
 let filterCat  = 'all';
 let filterDisc = 'all';
 let filterText = '';
+let sortMode   = 'default';
 
 function maxPct(offer) {
   const nums = (offer || '').match(/\d+/g);
@@ -146,7 +163,7 @@ function render() {
   const filtered = allOffers.filter(o =>
     (filterBank === 'all' || o.bank === filterBank) &&
     (filterCat  === 'all' || o.category === filterCat) &&
-    (filterDisc === 'all' || maxPct(o.offer) > 25) &&
+    (filterDisc === 'all' || maxPct(o.offer) >= Number(filterDisc)) &&
     (!filterText || o.merchant.toLowerCase().includes(filterText) || o.offer.toLowerCase().includes(filterText))
   );
 
@@ -158,6 +175,10 @@ function render() {
     if (!groups[o.card]) groups[o.card] = { bank: o.bank, card: o.card, offers: [] };
     groups[o.card].offers.push(o);
   });
+
+  if (sortMode === 'disc-desc') {
+    Object.values(groups).forEach(g => g.offers.sort((a, b) => maxPct(b.offer) - maxPct(a.offer)));
+  }
 
   const content = document.getElementById('content');
   if (filtered.length === 0) {
@@ -216,6 +237,11 @@ document.querySelectorAll('.chip').forEach(btn => {
 
 document.getElementById('search').addEventListener('input', e => {
   filterText = e.target.value.toLowerCase().trim();
+  render();
+});
+
+document.getElementById('sort').addEventListener('change', e => {
+  sortMode = e.target.value;
   render();
 });
 
