@@ -2006,5 +2006,525 @@
     "offer": "Enjoy 35% off with your Seylan Credit & Debit Cards...",
     "validity": "",
     "category": "Hotel"
+  },
+  {
+    "bank": "NTB",
+    "card": "NTB Credit",
+    "merchant": "Oasey Beach Hotel",
+    "offer": "20% off",
+    "validity": "Until 31 Oct 2026",
+    "category": "Hotel"
+  },
+  {
+    "bank": "NTB",
+    "card": "NTB Credit",
+    "merchant": "Thaha's at Galle Fort",
+    "offer": "10% off",
+    "validity": "Until 30 Jun 2027",
+    "category": "Hotel"
+  },
+  {
+    "bank": "NTB",
+    "card": "NTB Credit",
+    "merchant": "Amaara Forest Hotel, Sigiriya & Amaara Sky Hotel, Kandy",
+    "offer": "50% off",
+    "validity": "Stays until 31 Aug 2026",
+    "category": "Hotel"
+  },
+  {
+    "bank": "NTB",
+    "card": "NTB Credit",
+    "merchant": "Citrus Waskaduwa",
+    "offer": "15% off",
+    "validity": "1–31 Jul 2026",
+    "category": "Hotel"
+  },
+  {
+    "bank": "NTB",
+    "card": "NTB Credit",
+    "merchant": "Sigiriana Resort by Thilanka Dambulla",
+    "offer": "35% off",
+    "validity": "Until 31 Oct 2026",
+    "category": "Hotel"
+  },
+  {
+    "bank": "NTB",
+    "card": "NTB Credit",
+    "merchant": "Morven Hotel, Colombo",
+    "offer": "20% off",
+    "validity": "Until 31 Oct 2026",
+    "category": "Hotel"
+  },
+  {
+    "bank": "NTB",
+    "card": "NTB Credit",
+    "merchant": "The Flame Tree Estate, Galagedara",
+    "offer": "40% off",
+    "validity": "Until 30 Sep 2026",
+    "category": "Hotel"
+  },
+  {
+    "bank": "NTB",
+    "card": "NTB Credit",
+    "merchant": "WildEscape - Yala",
+    "offer": "Up to 15% off",
+    "validity": "Until 31 Jul 2026",
+    "category": "Hotel"
+  },
+  {
+    "bank": "NTB",
+    "card": "NTB Credit",
+    "merchant": "Ravana Garden",
+    "offer": "60% off",
+    "validity": "Until 31 Jul 2026",
+    "category": "Hotel"
+  },
+  {
+    "bank": "NTB",
+    "card": "NTB Credit",
+    "merchant": "Mandara Resort - Mirissa",
+    "offer": "30% off",
+    "validity": "Until 30 Nov 2025",
+    "category": "Hotel"
+  },
+  {
+    "bank": "NTB",
+    "card": "NTB Credit",
+    "merchant": "Mandara Rosen - Kataragama",
+    "offer": "30% off",
+    "validity": "Until 30 Nov 2025",
+    "category": "Hotel"
+  },
+  {
+    "bank": "NTB",
+    "card": "NTB Credit",
+    "merchant": "Anantaya Resorts & Spa - Pasikudah",
+    "offer": "Up to 50% off",
+    "validity": "Until 15 Jul 2026",
+    "category": "Hotel"
+  },
+  {
+    "bank": "NTB",
+    "card": "NTB Credit",
+    "merchant": "Anantaya Resorts & Spa - Chilaw",
+    "offer": "Up to 50% off",
+    "validity": "Until 30 Aug 2026",
+    "category": "Hotel"
+  },
+  {
+    "bank": "NTB",
+    "card": "NTB Credit",
+    "merchant": "Aarunya Nature Resort & Spa",
+    "offer": "10% savings on DBL",
+    "validity": "Until 31 Oct 2026",
+    "category": "Hotel"
+  },
+  {
+    "bank": "NTB",
+    "card": "NTB Credit",
+    "merchant": "Avani Kalutara Resort",
+    "offer": "Special rates from LKR 45,000",
+    "validity": "Until 21 Aug 2026",
+    "category": "Hotel"
+  },
+  {
+    "bank": "NTB",
+    "card": "NTB Credit",
+    "merchant": "Anantara Peace Haven Tangalle Resort",
+    "offer": "Special rates from LKR 95,000",
+    "validity": "Until 31 Aug 2026",
+    "category": "Hotel"
+  },
+  {
+    "bank": "NTB",
+    "card": "NTB Credit",
+    "merchant": "Anantara Kalutara Resort",
+    "offer": "Special rates from LKR 72,000",
+    "validity": "Until 31 Aug 2026",
+    "category": "Hotel"
+  },
+  {
+    "bank": "NTB",
+    "card": "NTB Credit",
+    "merchant": "Tropical Life Resort & Spa Dambulla",
+    "offer": "35% off",
+    "validity": "Until 30 Jun 2026",
+    "category": "Hotel"
+  },
+  {
+    "bank": "NTB",
+    "card": "NTB Credit",
+    "merchant": "Sudu Araliya, Polonnaruwa",
+    "offer": "35% off",
+    "validity": "Until 31 Jul 2026",
+    "category": "Hotel"
+  },
+  {
+    "bank": "NTB",
+    "card": "NTB Credit",
+    "merchant": "Wattura Resort & Spa",
+    "offer": "Up to 35% off",
+    "validity": "Until 15 Dec 2026",
+    "category": "Hotel"
+  },
+  {
+    "bank": "NTB",
+    "card": "NTB Credit",
+    "merchant": "Apa Villa Thalpe / Era Beach Thalpe / Lotus Estate / Joe's Resorts",
+    "offer": "20% off",
+    "validity": "Until 31 Dec 2026",
+    "category": "Hotel"
+  },
+  {
+    "bank": "NTB",
+    "card": "NTB Credit",
+    "merchant": "Luxor Kirindi Ella Resort & Spa",
+    "offer": "Up to 20% off",
+    "validity": "Until 31 Jul 2026",
+    "category": "Hotel"
+  },
+  {
+    "bank": "NTB",
+    "card": "NTB Credit",
+    "merchant": "Thilanka Hotel Kandy",
+    "offer": "35% off",
+    "validity": "Until 15 Aug 2026",
+    "category": "Hotel"
+  },
+  {
+    "bank": "NTB",
+    "card": "NTB Credit",
+    "merchant": "Trio Lodge, Habarana",
+    "offer": "35% off",
+    "validity": "Until 31 Oct 2026",
+    "category": "Hotel"
+  },
+  {
+    "bank": "NTB",
+    "card": "NTB Credit",
+    "merchant": "Hotel Tree of Life Nature Resort",
+    "offer": "20% off",
+    "validity": "1 Apr – 31 Oct 2026",
+    "category": "Hotel"
+  },
+  {
+    "bank": "NTB",
+    "card": "NTB Credit",
+    "merchant": "Nyne Hotels",
+    "offer": "30% off",
+    "validity": "5 Jun – 30 Nov 2026",
+    "category": "Hotel"
+  },
+  {
+    "bank": "NTB",
+    "card": "NTB Credit",
+    "merchant": "Mahaweli Reach Hotel",
+    "offer": "20% off",
+    "validity": "Until 30 Jun 2026",
+    "category": "Hotel"
+  },
+  {
+    "bank": "NTB",
+    "card": "NTB Credit",
+    "merchant": "Saluditya Retreat & Spa",
+    "offer": "20% off",
+    "validity": "Until 30 Jun 2026",
+    "category": "Hotel"
+  },
+  {
+    "bank": "NTB",
+    "card": "NTB Credit",
+    "merchant": "Athulya Villa, Kandy",
+    "offer": "25% off",
+    "validity": "Until 31 Jan 2027",
+    "category": "Hotel"
+  },
+  {
+    "bank": "NTB",
+    "card": "NTB Credit",
+    "merchant": "Elegant Hotel, Kandy",
+    "offer": "20% off",
+    "validity": "1 Apr – 30 Jun 2026",
+    "category": "Hotel"
+  },
+  {
+    "bank": "NTB",
+    "card": "NTB Credit",
+    "merchant": "Banana Bunks Mirissa & Kandy",
+    "offer": "25% off",
+    "validity": "Until 1 Jul 2026",
+    "category": "Hotel"
+  },
+  {
+    "bank": "NTB",
+    "card": "NTB Credit",
+    "merchant": "Kent Cottage",
+    "offer": "25% off",
+    "validity": "Until 1 Jul 2026",
+    "category": "Hotel"
+  },
+  {
+    "bank": "NTB",
+    "card": "NTB Credit",
+    "merchant": "Fox Resort Kandy",
+    "offer": "40% off",
+    "validity": "1 Apr – 30 Jun 2026",
+    "category": "Hotel"
+  },
+  {
+    "bank": "NTB",
+    "card": "NTB Credit",
+    "merchant": "Fox Resort Jaffna",
+    "offer": "35% off",
+    "validity": "1 Apr – 30 Jun 2026",
+    "category": "Hotel"
+  },
+  {
+    "bank": "NTB",
+    "card": "NTB Credit",
+    "merchant": "Hanthana Eco Lodge",
+    "offer": "Up to 50% off",
+    "validity": "1 May – 30 Jun 2026",
+    "category": "Hotel"
+  },
+  {
+    "bank": "NTB",
+    "card": "NTB Credit",
+    "merchant": "Uga Prava, Tangalle",
+    "offer": "20% off",
+    "validity": "Until 30 Jun 2026",
+    "category": "Hotel"
+  },
+  {
+    "bank": "NTB",
+    "card": "NTB Credit",
+    "merchant": "Taj Bentota Resort & Spa",
+    "offer": "25% off",
+    "validity": "Until 31 Oct 2026",
+    "category": "Hotel"
+  },
+  {
+    "bank": "NTB",
+    "card": "NTB Credit",
+    "merchant": "Hide Ella Hotel and Resort",
+    "offer": "40% off",
+    "validity": "1 May – 15 Jul 2026",
+    "category": "Hotel"
+  },
+  {
+    "bank": "NTB",
+    "card": "NTB Credit",
+    "merchant": "Wild Culture Yala",
+    "offer": "25% off",
+    "validity": "1 May – 31 Oct 2026",
+    "category": "Hotel"
+  },
+  {
+    "bank": "NTB",
+    "card": "NTB Credit",
+    "merchant": "The Golden Crown Hotel, Kandy",
+    "offer": "25% off",
+    "validity": "1 May – 15 Jul 2026",
+    "category": "Hotel"
+  },
+  {
+    "bank": "NTB",
+    "card": "NTB Credit",
+    "merchant": "The Golden Ridge, Nuwara Eliya",
+    "offer": "20% off",
+    "validity": "1 May – 15 Jul 2026",
+    "category": "Hotel"
+  },
+  {
+    "bank": "NTB",
+    "card": "NTB Credit",
+    "merchant": "Kahanda Kanda",
+    "offer": "30% off",
+    "validity": "1 May – 31 Oct 2026",
+    "category": "Hotel"
+  },
+  {
+    "bank": "NTB",
+    "card": "NTB Credit",
+    "merchant": "The Villa Bentota",
+    "offer": "30% off",
+    "validity": "1 May – 31 Oct 2026",
+    "category": "Hotel"
+  },
+  {
+    "bank": "NTB",
+    "card": "NTB Credit",
+    "merchant": "KK Beach",
+    "offer": "35% off",
+    "validity": "1 May – 31 Oct 2026",
+    "category": "Hotel"
+  },
+  {
+    "bank": "NTB",
+    "card": "NTB Credit",
+    "merchant": "ARD LUI Residence",
+    "offer": "30% off",
+    "validity": "1 May – 31 Jul 2026",
+    "category": "Hotel"
+  },
+  {
+    "bank": "NTB",
+    "card": "NTB Credit",
+    "merchant": "Amagi Aria, Negombo",
+    "offer": "Up to 20% off",
+    "validity": "Until 31 Jul 2026",
+    "category": "Hotel"
+  },
+  {
+    "bank": "NTB",
+    "card": "NTB Credit",
+    "merchant": "Amagi Beach, Marawila",
+    "offer": "Up to 20% off",
+    "validity": "Until 31 Jul 2026",
+    "category": "Hotel"
+  },
+  {
+    "bank": "NTB",
+    "card": "NTB Credit",
+    "merchant": "The Glenrock Wellness Nature Resort",
+    "offer": "25% off",
+    "validity": "Until 30 Jun 2026",
+    "category": "Hotel"
+  },
+  {
+    "bank": "NTB",
+    "card": "NTB Credit",
+    "merchant": "Randiya Sea View Hotel, Mirissa",
+    "offer": "20% off",
+    "validity": "11 May – 30 Nov 2026",
+    "category": "Hotel"
+  },
+  {
+    "bank": "NTB",
+    "card": "NTB Credit",
+    "merchant": "Earl's Regent Hotel, Kandy",
+    "offer": "30% off",
+    "validity": "11 May – 31 Jul 2026",
+    "category": "Hotel"
+  },
+  {
+    "bank": "NTB",
+    "card": "NTB Credit",
+    "merchant": "Sigiriya Jungles Resort & Spa",
+    "offer": "Up to 35% off",
+    "validity": "Until 15 Jul 2026",
+    "category": "Hotel"
+  },
+  {
+    "bank": "NTB",
+    "card": "NTB Credit",
+    "merchant": "Simpson's Forest Luxury Boutique Resort & Spa, Kandy",
+    "offer": "25% off",
+    "validity": "Until 31 Oct 2026",
+    "category": "Hotel"
+  },
+  {
+    "bank": "NTB",
+    "card": "NTB Credit",
+    "merchant": "Aprota Villas",
+    "offer": "25% off",
+    "validity": "Until 31 Dec 2026",
+    "category": "Hotel"
+  },
+  {
+    "bank": "NTB",
+    "card": "NTB Credit",
+    "merchant": "Elephant Reach Hotel",
+    "offer": "25% off",
+    "validity": "15 May – 15 Jul 2026",
+    "category": "Hotel"
+  },
+  {
+    "bank": "NTB",
+    "card": "NTB Credit",
+    "merchant": "Celestia Ayurveda Resort",
+    "offer": "25% off",
+    "validity": "1 Jun – 31 Aug 2026",
+    "category": "Hotel"
+  },
+  {
+    "bank": "NTB",
+    "card": "NTB Credit",
+    "merchant": "Villa Labugolla",
+    "offer": "Up to 20% off",
+    "validity": "Until 31 Jul 2026",
+    "category": "Hotel"
+  },
+  {
+    "bank": "NTB",
+    "card": "NTB Credit",
+    "merchant": "The Sun House, Galle",
+    "offer": "Special rates (BB/HB/FB)",
+    "validity": "8 May – 31 Jul 2026",
+    "category": "Hotel"
+  },
+  {
+    "bank": "NTB",
+    "card": "NTB Credit",
+    "merchant": "Regal Reseau Hotel & Spa",
+    "offer": "30% off",
+    "validity": "Until 30 Jun 2026",
+    "category": "Hotel"
+  },
+  {
+    "bank": "NTB",
+    "card": "NTB Credit",
+    "merchant": "Sigiriya Village Hotel",
+    "offer": "30% off",
+    "validity": "Until 31 Jul 2026",
+    "category": "Hotel"
+  },
+  {
+    "bank": "NTB",
+    "card": "NTB Credit",
+    "merchant": "Club Palm Bay, Marawila",
+    "offer": "30% off",
+    "validity": "Until 31 Jul 2026",
+    "category": "Hotel"
+  },
+  {
+    "bank": "NTB",
+    "card": "NTB Credit",
+    "merchant": "Uga Jungle Beach, Trincomalee",
+    "offer": "45% off",
+    "validity": "Until 30 Jun 2025",
+    "category": "Hotel"
+  },
+  {
+    "bank": "NTB",
+    "card": "NTB Credit",
+    "merchant": "Uga Bay",
+    "offer": "45% off",
+    "validity": "Until 30 Jun 2025",
+    "category": "Hotel"
+  },
+  {
+    "bank": "NTB",
+    "card": "NTB Credit",
+    "merchant": "Araliya Green City Hotel, Nuwara Eliya",
+    "offer": "30% off",
+    "validity": "Until 31 Jul 2026",
+    "category": "Hotel"
+  },
+  {
+    "bank": "NTB",
+    "card": "NTB Credit",
+    "merchant": "Araliya Green Hills Hotel, Nuwara Eliya",
+    "offer": "30% off",
+    "validity": "Until 31 Jul 2026",
+    "category": "Hotel"
+  },
+  {
+    "bank": "NTB",
+    "card": "NTB Credit",
+    "merchant": "Araliya Red Hotel, Nuwara Eliya",
+    "offer": "30% off",
+    "validity": "Until 31 Jul 2026",
+    "category": "Hotel"
   }
 ]
