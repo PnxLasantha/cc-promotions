@@ -1,262 +1,6 @@
 [
   {
     "bank": "NTB",
-    "card": "NTB Credit",
-    "merchant": "Domino's",
-    "offer": "Enjoy 40% off with Mastercard Credit Card",
-    "validity": "Valid on 26th June 2026",
-    "category": "Dining"
-  },
-  {
-    "bank": "NTB",
-    "card": "NTB Credit",
-    "merchant": "Butlers",
-    "offer": "Enjoy 20% off with Mastercard Credit Card",
-    "validity": "Valid till 30th June 2026",
-    "category": "Dining"
-  },
-  {
-    "bank": "NTB",
-    "card": "NTB Credit",
-    "merchant": "Petti Petti Mirissa",
-    "offer": "Enjoy 15% off with Mastercard Credit & Debit Card",
-    "validity": "Valid till 1st July 2026",
-    "category": "Dining"
-  },
-  {
-    "bank": "NTB",
-    "card": "NTB Credit",
-    "merchant": "COCO Bar Colombo",
-    "offer": "Enjoy up to 10% off with Mastercard Credit & Debit Card",
-    "validity": "Valid till 1st July 2026",
-    "category": "Dining"
-  },
-  {
-    "bank": "NTB",
-    "card": "NTB Credit",
-    "merchant": "Waters Edge",
-    "offer": "Enjoy 20% off with Mastercard Credit Cards",
-    "validity": "Valid till 30th June 2026",
-    "category": "Dining"
-  },
-  {
-    "bank": "NTB",
-    "card": "NTB Credit",
-    "merchant": "Waters Edge – Members Lounge",
-    "offer": "Enjoy 20% off with Mastercard Credit Cards",
-    "validity": "Valid till 30th June 2026",
-    "category": "Dining"
-  },
-  {
-    "bank": "NTB",
-    "card": "NTB Credit",
-    "merchant": "Waters Edge – BATL & Bakery",
-    "offer": "Enjoy 20% off on cakes with Mastercard Credit Cards",
-    "validity": "Valid till 30th June 2026",
-    "category": "Dining"
-  },
-  {
-    "bank": "NTB",
-    "card": "NTB Credit",
-    "merchant": "Great Wall Restaurant",
-    "offer": "Enjoy 20% off with Mastercard Credit Cards and 15% with Debit Cards",
-    "validity": "Valid till 30th June 2026",
-    "category": "Dining"
-  },
-  {
-    "bank": "NTB",
-    "card": "NTB Credit",
-    "merchant": "Layards Wharf by Food Studio – Havelock City Mall",
-    "offer": "Enjoy 25% off with Mastercard Credit Cards",
-    "validity": "Valid till 30th June 2026",
-    "category": "Dining"
-  },
-  {
-    "bank": "NTB",
-    "card": "NTB Credit",
-    "merchant": "Food Studio - One Galle Face Mall",
-    "offer": "Enjoy 25% off with Mastercard Credit Cards",
-    "validity": "Valid till 30th June 2026",
-    "category": "Dining"
-  },
-  {
-    "bank": "NTB",
-    "card": "NTB Credit",
-    "merchant": "Arabian Knights",
-    "offer": "Enjoy 15% off with Mastercard Credit Cards",
-    "validity": "Valid till 31st July 2026",
-    "category": "Dining"
-  },
-  {
-    "bank": "NTB",
-    "card": "NTB Credit",
-    "merchant": "Joint Pub",
-    "offer": "Enjoy 15% off with Mastercard Credit Cards",
-    "validity": "Valid till 30th June 2026",
-    "category": "Dining"
-  },
-  {
-    "bank": "NTB",
-    "card": "NTB Credit",
-    "merchant": "Chinese Dragon Cafe",
-    "offer": "Enjoy 20% off with Mastercard Credit Cards",
-    "validity": "Valid till 30th June 2026",
-    "category": "Dining"
-  },
-  {
-    "bank": "NTB",
-    "card": "NTB Credit",
-    "merchant": "Hilton Colombo Residence",
-    "offer": "Enjoy 25% off with Mastercard Credit Cards",
-    "validity": "Valid till 30th June 2026",
-    "category": "Dining"
-  },
-  {
-    "bank": "NTB",
-    "card": "NTB Credit",
-    "merchant": "The Palestine Bakery",
-    "offer": "Enjoy 15% off with Mastercard Credit Card",
-    "validity": "Valid till 31st July 2026",
-    "category": "Dining"
-  },
-  {
-    "bank": "NTB",
-    "card": "NTB Credit",
-    "merchant": "Sheraton Colombo Hotel – Colombo Kitchen",
-    "offer": "Enjoy up to 35% off with Mastercard Credit Cards",
-    "validity": "Valid till 30th June 2026",
-    "category": "Dining"
-  },
-  {
-    "bank": "NTB",
-    "card": "NTB Credit",
-    "merchant": "Sheraton Colombo Hotel – Bayu",
-    "offer": "Enjoy 20% off with Mastercard Credit Cards",
-    "validity": "Valid till 30th June 2026",
-    "category": "Dining"
-  },
-  {
-    "bank": "NTB",
-    "card": "NTB Credit",
-    "merchant": "Taru Villas Kandy",
-    "offer": "Enjoy 10% off with Mastercard Credit Cards",
-    "validity": "Valid till 30th June 2026",
-    "category": "Dining"
-  },
-  {
-    "bank": "NTB",
-    "card": "NTB Credit",
-    "merchant": "Ramada by Wyndham Colombo",
-    "offer": "Enjoy 20% off with Mastercard Credit Cards",
-    "validity": "Valid till 31st July 2026",
-    "category": "Dining"
-  },
-  {
-    "bank": "NTB",
-    "card": "NTB Credit",
-    "merchant": "Tenkai (Ambrosia) Restaurant",
-    "offer": "Enjoy 15% off with Mastercard Credit Cards",
-    "validity": "Valid till 31st July 2026",
-    "category": "Dining"
-  },
-  {
-    "bank": "NTB",
-    "card": "NTB Credit",
-    "merchant": "Blooming Breakfast Resto Bar & Cafe",
-    "offer": "Enjoy 20% off with Mastercard Credit Cards",
-    "validity": "Valid till 31st August 2026",
-    "category": "Dining"
-  },
-  {
-    "bank": "NTB",
-    "card": "NTB Credit",
-    "merchant": "Taj Samudra, Colombo",
-    "offer": "Enjoy 20% off with Mastercard Credit Cards",
-    "validity": "Valid till 31st July 2026",
-    "category": "Dining"
-  },
-  {
-    "bank": "NTB",
-    "card": "NTB Credit",
-    "merchant": "Bayu – Sheraton Colombo Hotel",
-    "offer": "Enjoy 20% off with Mastercard Credit Cards",
-    "validity": "Valid till 30th June 2026",
-    "category": "Dining"
-  },
-  {
-    "bank": "NTB",
-    "card": "NTB Credit",
-    "merchant": "Colombo Kitchen – Sheraton Colombo Hotel",
-    "offer": "Enjoy 20% off with Mastercard Credit Cards",
-    "validity": "Valid till 30th June 2026",
-    "category": "Dining"
-  },
-  {
-    "bank": "NTB",
-    "card": "NTB Credit",
-    "merchant": "Yamato Japanese Restaurant",
-    "offer": "Enjoy 15% off with Mastercard Credit Cards",
-    "validity": "Valid till 30th June 2026",
-    "category": "Dining"
-  },
-  {
-    "bank": "NTB",
-    "card": "NTB Credit",
-    "merchant": "Full’r Burgers",
-    "offer": "Enjoy 20% off with Mastercard Credit Cards",
-    "validity": "Valid till 30th June 2026",
-    "category": "Dining"
-  },
-  {
-    "bank": "NTB",
-    "card": "NTB Credit",
-    "merchant": "Indian Affair",
-    "offer": "Enjoy 20% off with Mastercard Credit Cards",
-    "validity": "Valid every Saturday till 30th June 2026",
-    "category": "Dining"
-  },
-  {
-    "bank": "NTB",
-    "card": "NTB Credit",
-    "merchant": "Solo Bowl",
-    "offer": "Enjoy 20% off with Mastercard Credit Cards",
-    "validity": "Valid every Sunday till 30th June 2026",
-    "category": "Dining"
-  },
-  {
-    "bank": "NTB",
-    "card": "NTB Credit",
-    "merchant": "The Blue Water Hotel and Spa",
-    "offer": "Enjoy 15% off with Mastercard Credit Cards",
-    "validity": "Valid till 30th June 2026",
-    "category": "Dining"
-  },
-  {
-    "bank": "NTB",
-    "card": "NTB Credit",
-    "merchant": "Radisson Hotel Kandy",
-    "offer": "Enjoy 20% off with Mastercard Credit Cards",
-    "validity": "Valid till 31st August 2026",
-    "category": "Dining"
-  },
-  {
-    "bank": "NTB",
-    "card": "NTB Credit",
-    "merchant": "Radisson Blu Resort Galle",
-    "offer": "Enjoy 20% off with Mastercard Credit Cards",
-    "validity": "Valid till 31st August 2026",
-    "category": "Dining"
-  },
-  {
-    "bank": "NTB",
-    "card": "NTB Credit",
-    "merchant": "Dine Restaurant – Radisson Hotel Colombo",
-    "offer": "Enjoy 20% off with Mastercard Credit Cards",
-    "validity": "Valid till 31st August 2026",
-    "category": "Dining"
-  },
-  {
-    "bank": "NTB",
     "card": "Amex",
     "merchant": "KFC",
     "offer": "30% Savings",
@@ -1458,30 +1202,6 @@
   {
     "bank": "Seylan",
     "card": "Seylan Credit",
-    "merchant": "Lebanan Chef Restaurant",
-    "offer": "10% OFF FOR CREDIT & DEBIT CARDS ON TOTAL BILL...",
-    "validity": "",
-    "category": "Dining"
-  },
-  {
-    "bank": "Seylan",
-    "card": "Seylan Credit",
-    "merchant": "CARD MEMBER DINES FREE OFFER",
-    "offer": "FOR SEYLAN CREDIT CARDHOLDERS...",
-    "validity": "",
-    "category": "Dining"
-  },
-  {
-    "bank": "Seylan",
-    "card": "Seylan Credit",
-    "merchant": "CARD MEMBER DINES FREE PREMIER CARDS OFFER",
-    "offer": "FOR SEYLAN PREMIER CARHOLDERS...",
-    "validity": "",
-    "category": "Dining"
-  },
-  {
-    "bank": "Seylan",
-    "card": "Seylan Credit",
     "merchant": "RED ORCHIDS RESTAURANT",
     "offer": "15% Off with your Seylan Cards...",
     "validity": "",
@@ -1514,22 +1234,6 @@
   {
     "bank": "Seylan",
     "card": "Seylan Credit",
-    "merchant": "RADISSON COLLECTION RESORT GALLE",
-    "offer": "20%  off for Seylan Credit Cards...",
-    "validity": "",
-    "category": "Hotel"
-  },
-  {
-    "bank": "Seylan",
-    "card": "Seylan Credit",
-    "merchant": "Sigiriya Forest Edge By Marino Leisure",
-    "offer": "15% Off for Seylan Bank Credit and Debit Cardholders...",
-    "validity": "",
-    "category": "Hotel"
-  },
-  {
-    "bank": "Seylan",
-    "card": "Seylan Credit",
     "merchant": "VILLA GREEN COCOS",
     "offer": "25%  off with your Seylan Credit & Debit Cards...",
     "validity": "",
@@ -1540,14 +1244,6 @@
     "card": "Seylan Credit",
     "merchant": "ARALIYA HOTELS",
     "offer": "30% off on Room Rates for Seylan Cards at Sudu Araliya...",
-    "validity": "",
-    "category": "Hotel"
-  },
-  {
-    "bank": "Seylan",
-    "card": "Seylan Credit",
-    "merchant": "Solara Beach House Dikwella",
-    "offer": "15% discount on accommodation on Bed & Breakfast basis with your Seylan Credit Card...",
     "validity": "",
     "category": "Hotel"
   },
@@ -1570,6 +1266,22 @@
   {
     "bank": "Seylan",
     "card": "Seylan Credit",
+    "merchant": "ANANTAYA RESORTS & SPAS",
+    "offer": "Up to 50% OFF at Anantaya Resorts & Spa – Chilaw & Pasikudah with your Seylan Cards...",
+    "validity": "",
+    "category": "Hotel"
+  },
+  {
+    "bank": "Seylan",
+    "card": "Seylan Credit",
+    "merchant": "V C VILLAS",
+    "offer": "Upto 35% on All room rates for Seylan Cards...",
+    "validity": "",
+    "category": "Hotel"
+  },
+  {
+    "bank": "Seylan",
+    "card": "Seylan Credit",
     "merchant": "Mount Lavinia Hotel",
     "offer": "20% off with your Seylan Credit Cards...",
     "validity": "",
@@ -1580,14 +1292,6 @@
     "card": "Seylan Credit",
     "merchant": "CLUB BENTOTA",
     "offer": "20% discount on overnight and day out package rates with your Seylan Credit Cards...",
-    "validity": "",
-    "category": "Hotel"
-  },
-  {
-    "bank": "Seylan",
-    "card": "Seylan Credit",
-    "merchant": "ANANTAYA RESORTS & SPAS",
-    "offer": "Up to 50% OFF at Anantaya Resorts & Spa – Chilaw & Pasikudah with your Seylan Cards...",
     "validity": "",
     "category": "Hotel"
   },
@@ -1618,14 +1322,6 @@
   {
     "bank": "Seylan",
     "card": "Seylan Credit",
-    "merchant": "Hilton Yala Resort",
-    "offer": "Up to 50% off on Full Board and Half Board basis with Easy Payment Plans for  your Seylan Cards...",
-    "validity": "",
-    "category": "Hotel"
-  },
-  {
-    "bank": "Seylan",
-    "card": "Seylan Credit",
     "merchant": "Thilanka Hotel - Kandy",
     "offer": "35% Discount with your Seylan Cards...",
     "validity": "",
@@ -1636,22 +1332,6 @@
     "card": "Seylan Credit",
     "merchant": "Jie Jie Beach Hotel Panadura",
     "offer": "20% discount on Double & Triple Room bookings on Half Board & Full Board basis...",
-    "validity": "",
-    "category": "Hotel"
-  },
-  {
-    "bank": "Seylan",
-    "card": "Seylan Credit",
-    "merchant": "V C VILLAS",
-    "offer": "Upto 30% on All room rates for Seylan Cards...",
-    "validity": "",
-    "category": "Hotel"
-  },
-  {
-    "bank": "Seylan",
-    "card": "Seylan Credit",
-    "merchant": "MAHAWELI REACH HOTEL",
-    "offer": "Enjoy 20% Off  with your Seylan Credit Card...",
     "validity": "",
     "category": "Hotel"
   },
@@ -1690,40 +1370,8 @@
   {
     "bank": "Seylan",
     "card": "Seylan Credit",
-    "merchant": "SEA HORSE HOTEL & SPA NEGOMBO",
-    "offer": "20% off on Total Bill for Credit  & Debit Cards...",
-    "validity": "",
-    "category": "Hotel"
-  },
-  {
-    "bank": "Seylan",
-    "card": "Seylan Credit",
-    "merchant": "UGA ESCAPES",
-    "offer": "Enjoy 45%  off on Room Rates when redeeming points with your Seylan Cards...",
-    "validity": "",
-    "category": "Hotel"
-  },
-  {
-    "bank": "Seylan",
-    "card": "Seylan Credit",
     "merchant": "Edwards Collection – Luxury Villas Sri Lanka",
     "offer": "Up to 40% off with your Seylan Cards...",
-    "validity": "",
-    "category": "Hotel"
-  },
-  {
-    "bank": "Seylan",
-    "card": "Seylan Credit",
-    "merchant": "STONE WATER BEACH VILLA",
-    "offer": "25% off on room rates for Seylan Cards...",
-    "validity": "",
-    "category": "Hotel"
-  },
-  {
-    "bank": "Seylan",
-    "card": "Seylan Credit",
-    "merchant": "INDIGASLANDA WALAWWA",
-    "offer": "25% Off on room rates with your Seylan Cards...",
     "validity": "",
     "category": "Hotel"
   },
