@@ -1,6 +1,246 @@
 [
   {
     "bank": "NTB",
+    "card": "NTB Credit",
+    "merchant": "Domino's",
+    "offer": "Enjoy 25% off with Mastercard Credit Card",
+    "validity": "Valid till 31st July 2026",
+    "category": "Dining"
+  },
+  {
+    "bank": "NTB",
+    "card": "NTB Credit",
+    "merchant": "Butlers",
+    "offer": "Enjoy 20% off with Mastercard Credit Card",
+    "validity": "Valid till 30th June 2026",
+    "category": "Dining"
+  },
+  {
+    "bank": "NTB",
+    "card": "NTB Credit",
+    "merchant": "Petti Petti Mirissa",
+    "offer": "Enjoy 15% off with Mastercard Credit & Debit Card",
+    "validity": "Valid till 1st July 2026",
+    "category": "Dining"
+  },
+  {
+    "bank": "NTB",
+    "card": "NTB Credit",
+    "merchant": "COCO Bar Colombo",
+    "offer": "Enjoy up to 10% off with Mastercard Credit & Debit Card",
+    "validity": "Valid till 1st July 2026",
+    "category": "Dining"
+  },
+  {
+    "bank": "NTB",
+    "card": "NTB Credit",
+    "merchant": "Waters Edge - Boardwalk | KOBE | Diyatha",
+    "offer": "Enjoy 20% off with Mastercard Credit Cards",
+    "validity": "Valid till 30th June 2026",
+    "category": "Dining"
+  },
+  {
+    "bank": "NTB",
+    "card": "NTB Credit",
+    "merchant": "Waters Edge – Members Lounge",
+    "offer": "Enjoy 20% off with Mastercard Credit Cards",
+    "validity": "Valid till 30th June 2026",
+    "category": "Dining"
+  },
+  {
+    "bank": "NTB",
+    "card": "NTB Credit",
+    "merchant": "Waters Edge – BATL & Bakery",
+    "offer": "Enjoy 20% off on cakes with Mastercard Credit Cards",
+    "validity": "Valid till 30th June 2026",
+    "category": "Dining"
+  },
+  {
+    "bank": "NTB",
+    "card": "NTB Credit",
+    "merchant": "Layards Wharf by Food Studio – Havelock City Mall",
+    "offer": "Enjoy 25% off with Mastercard Credit Cards",
+    "validity": "Valid till 30th June 2026",
+    "category": "Dining"
+  },
+  {
+    "bank": "NTB",
+    "card": "NTB Credit",
+    "merchant": "Great Wall Restaurant",
+    "offer": "Enjoy 20% off with Mastercard Credit Cards and 15% with Debit Cards",
+    "validity": "Valid till 30th June 2026",
+    "category": "Dining"
+  },
+  {
+    "bank": "NTB",
+    "card": "NTB Credit",
+    "merchant": "Food Studio - One Galle Face Mall",
+    "offer": "Enjoy 25% off with Mastercard Credit Cards",
+    "validity": "Valid till 30th June 2026",
+    "category": "Dining"
+  },
+  {
+    "bank": "NTB",
+    "card": "NTB Credit",
+    "merchant": "Arabian Knights",
+    "offer": "Enjoy 15% off with Mastercard Credit Cards",
+    "validity": "Valid till 31st July 2026",
+    "category": "Dining"
+  },
+  {
+    "bank": "NTB",
+    "card": "NTB Credit",
+    "merchant": "Joint Pub",
+    "offer": "Enjoy 15% off with Mastercard Credit Cards",
+    "validity": "Valid till 30th June 2026",
+    "category": "Dining"
+  },
+  {
+    "bank": "NTB",
+    "card": "NTB Credit",
+    "merchant": "Chinese Dragon Cafe",
+    "offer": "Enjoy 20% off with Mastercard Credit Cards",
+    "validity": "Valid till 30th June 2026",
+    "category": "Dining"
+  },
+  {
+    "bank": "NTB",
+    "card": "NTB Credit",
+    "merchant": "Hilton Colombo Residence",
+    "offer": "Enjoy 25% off with Mastercard Credit Cards",
+    "validity": "Valid till 30th June 2026",
+    "category": "Dining"
+  },
+  {
+    "bank": "NTB",
+    "card": "NTB Credit",
+    "merchant": "The Palestine Bakery",
+    "offer": "Enjoy 15% off with Mastercard Credit Card",
+    "validity": "Valid till 31st July 2026",
+    "category": "Dining"
+  },
+  {
+    "bank": "NTB",
+    "card": "NTB Credit",
+    "merchant": "Sheraton Colombo Hotel – Bayu",
+    "offer": "Enjoy 20% off with Mastercard Credit Cards",
+    "validity": "Valid till 30th June 2026",
+    "category": "Dining"
+  },
+  {
+    "bank": "NTB",
+    "card": "NTB Credit",
+    "merchant": "Taru Villas Kandy",
+    "offer": "Enjoy 10% off with Mastercard Credit Cards",
+    "validity": "Valid till 30th June 2026",
+    "category": "Dining"
+  },
+  {
+    "bank": "NTB",
+    "card": "NTB Credit",
+    "merchant": "Ramada by Wyndham Colombo",
+    "offer": "Enjoy 20% off with Mastercard Credit Cards",
+    "validity": "Valid till 31st July 2026",
+    "category": "Dining"
+  },
+  {
+    "bank": "NTB",
+    "card": "NTB Credit",
+    "merchant": "Tenkai (Ambrosia) Restaurant",
+    "offer": "Enjoy 15% off with Mastercard Credit Cards",
+    "validity": "Valid till 31st July 2026",
+    "category": "Dining"
+  },
+  {
+    "bank": "NTB",
+    "card": "NTB Credit",
+    "merchant": "Blooming Breakfast Resto Bar & Cafe",
+    "offer": "Enjoy 20% off with Mastercard Credit Cards",
+    "validity": "Valid till 31st August 2026",
+    "category": "Dining"
+  },
+  {
+    "bank": "NTB",
+    "card": "NTB Credit",
+    "merchant": "Taj Samudra, Colombo",
+    "offer": "Enjoy 20% off with Mastercard Credit Cards",
+    "validity": "Valid till 31st July 2026",
+    "category": "Dining"
+  },
+  {
+    "bank": "NTB",
+    "card": "NTB Credit",
+    "merchant": "Colombo Kitchen – Sheraton Colombo Hotel",
+    "offer": "Enjoy 20% off with Mastercard Credit Cards",
+    "validity": "Valid till 30th June 2026",
+    "category": "Dining"
+  },
+  {
+    "bank": "NTB",
+    "card": "NTB Credit",
+    "merchant": "Yamato Japanese Restaurant",
+    "offer": "Enjoy 15% off with Mastercard Credit Cards",
+    "validity": "Valid till 30th June 2026",
+    "category": "Dining"
+  },
+  {
+    "bank": "NTB",
+    "card": "NTB Credit",
+    "merchant": "Full’r Burgers",
+    "offer": "Enjoy 20% off with Mastercard Credit Cards",
+    "validity": "Valid till 30th June 2026",
+    "category": "Dining"
+  },
+  {
+    "bank": "NTB",
+    "card": "NTB Credit",
+    "merchant": "Indian Affair",
+    "offer": "Enjoy 20% off with Mastercard Credit Cards",
+    "validity": "Valid every Saturday till 30th June 2026",
+    "category": "Dining"
+  },
+  {
+    "bank": "NTB",
+    "card": "NTB Credit",
+    "merchant": "Solo Bowl",
+    "offer": "Enjoy 20% off with Mastercard Credit Cards",
+    "validity": "Valid every Sunday till 30th June 2026",
+    "category": "Dining"
+  },
+  {
+    "bank": "NTB",
+    "card": "NTB Credit",
+    "merchant": "The Blue Water Hotel and Spa",
+    "offer": "Enjoy 15% off with Mastercard Credit Cards",
+    "validity": "Valid till 30th June 2026",
+    "category": "Dining"
+  },
+  {
+    "bank": "NTB",
+    "card": "NTB Credit",
+    "merchant": "Radisson Hotel Kandy",
+    "offer": "Enjoy 20% off with Mastercard Credit Cards",
+    "validity": "Valid till 31st August 2026",
+    "category": "Dining"
+  },
+  {
+    "bank": "NTB",
+    "card": "NTB Credit",
+    "merchant": "Radisson Blu Resort Galle",
+    "offer": "Enjoy 20% off with Mastercard Credit Cards",
+    "validity": "Valid till 31st August 2026",
+    "category": "Dining"
+  },
+  {
+    "bank": "NTB",
+    "card": "NTB Credit",
+    "merchant": "Dine Restaurant – Radisson Hotel Colombo",
+    "offer": "Enjoy 20% off with Mastercard Credit Cards",
+    "validity": "Valid till 31st August 2026",
+    "category": "Dining"
+  },
+  {
+    "bank": "NTB",
     "card": "Amex",
     "merchant": "KFC",
     "offer": "30% Savings",
@@ -10,57 +250,9 @@
   {
     "bank": "NTB",
     "card": "Amex",
-    "merchant": "Companion dines for free",
-    "offer": "Explorer cards",
-    "validity": "Valid every Mon to Wed till  30th June 2026",
-    "category": "Dining"
-  },
-  {
-    "bank": "NTB",
-    "card": "Amex",
     "merchant": "Arabian Knights",
     "offer": "15% Savings",
     "validity": "Valid till 31st July 2026",
-    "category": "Dining"
-  },
-  {
-    "bank": "NTB",
-    "card": "Amex",
-    "merchant": "Food Studio - One Galle Face Mall",
-    "offer": "25% Savings",
-    "validity": "Valid till 30th June 2026",
-    "category": "Dining"
-  },
-  {
-    "bank": "NTB",
-    "card": "Amex",
-    "merchant": "Emperor's Wok - Hilton Colombo",
-    "offer": "Special savings",
-    "validity": "Valid till 30th June 2026",
-    "category": "Dining"
-  },
-  {
-    "bank": "NTB",
-    "card": "Amex",
-    "merchant": "Hilton Colombo Residence - FLOW",
-    "offer": "25% Savings",
-    "validity": "Valid till 30th June 2026",
-    "category": "Dining"
-  },
-  {
-    "bank": "NTB",
-    "card": "Amex",
-    "merchant": "Hilton Colombo Residence - Level3ree Poolside",
-    "offer": "25% Savings",
-    "validity": "Valid till 30th June 2026",
-    "category": "Dining"
-  },
-  {
-    "bank": "NTB",
-    "card": "Amex",
-    "merchant": "Cinnamon Grand Colombo - London Grill",
-    "offer": "Special Savings",
-    "validity": "Valid from 1st May to 30th June 2026",
     "category": "Dining"
   },
   {
@@ -106,33 +298,9 @@
   {
     "bank": "NTB",
     "card": "Amex",
-    "merchant": "Chinese Dragon Cafe",
-    "offer": "20% Savings",
-    "validity": "Valid from 1st May to 30th June 2026",
-    "category": "Dining"
-  },
-  {
-    "bank": "NTB",
-    "card": "Amex",
-    "merchant": "Layards Wharf by Food Studio – Havelock City Mall",
-    "offer": "25% savings",
-    "validity": "Valid till 30th June 2026",
-    "category": "Dining"
-  },
-  {
-    "bank": "NTB",
-    "card": "Amex",
     "merchant": "Galle Face Hotel - In On The Green",
     "offer": "Upto 20% Savings",
     "validity": "Valid till 31st August 2026",
-    "category": "Dining"
-  },
-  {
-    "bank": "NTB",
-    "card": "Amex",
-    "merchant": "The Joint Pub & Grill",
-    "offer": "15% savings",
-    "validity": "Valid till 30th June 2026",
     "category": "Dining"
   },
   {
@@ -157,22 +325,6 @@
     "merchant": "Taj Samudra Colombo - YUMI",
     "offer": "20% Savings",
     "validity": "Valid till  31st July 2026",
-    "category": "Dining"
-  },
-  {
-    "bank": "NTB",
-    "card": "Amex",
-    "merchant": "Ginza Hohsen",
-    "offer": "EXPLORER CARDS",
-    "validity": "Valid till 30th June 2026",
-    "category": "Dining"
-  },
-  {
-    "bank": "NTB",
-    "card": "Amex",
-    "merchant": "Yamato Japanese Restaurant",
-    "offer": "15% Savings",
-    "validity": "Valid till 30th June 2026",
     "category": "Dining"
   },
   {
@@ -226,14 +378,6 @@
   {
     "bank": "NTB",
     "card": "Amex",
-    "merchant": "Butlers",
-    "offer": "20% Savings",
-    "validity": "Valid till 30th June 2026",
-    "category": "Dining"
-  },
-  {
-    "bank": "NTB",
-    "card": "Amex",
     "merchant": "Ramada Colombo - Alhambra Restaurant",
     "offer": "20% Savings",
     "validity": "Valid from 1st June to 31st July 2026",
@@ -269,30 +413,6 @@
     "merchant": "The Palestine Bakery",
     "offer": "15% Savings",
     "validity": "Valid till 31st July 2026",
-    "category": "Dining"
-  },
-  {
-    "bank": "NTB",
-    "card": "Amex",
-    "merchant": "Red Orchids Restaurant",
-    "offer": "15% Savings",
-    "validity": "Valid till 30th June 2026",
-    "category": "Dining"
-  },
-  {
-    "bank": "NTB",
-    "card": "Amex",
-    "merchant": "Taru Villas - Kandy",
-    "offer": "10% Savings",
-    "validity": "Valid till 30th June 2026",
-    "category": "Dining"
-  },
-  {
-    "bank": "NTB",
-    "card": "Amex",
-    "merchant": "The Blue Water Hotel",
-    "offer": "15% Savings",
-    "validity": "Valid till 30th June 2026",
     "category": "Dining"
   },
   {
@@ -354,14 +474,6 @@
   {
     "bank": "NTB",
     "card": "Amex",
-    "merchant": "Hilton Colombo Residence - Basico Bar Lounge",
-    "offer": "25% Savings",
-    "validity": "Valid till 30th June 2026",
-    "category": "Dining"
-  },
-  {
-    "bank": "NTB",
-    "card": "Amex",
     "merchant": "Sheraton Colombo Hotel - Colombo Kitchen",
     "offer": "20% savings",
     "validity": "Valid till 31st August 2026",
@@ -373,22 +485,6 @@
     "merchant": "Sheraton Colombo Hotel - Bayu",
     "offer": "20% savings",
     "validity": "Valid till 31st August 2026",
-    "category": "Dining"
-  },
-  {
-    "bank": "NTB",
-    "card": "Amex",
-    "merchant": "Water’s Edge – Diyatha",
-    "offer": "20% Savings",
-    "validity": "Valid till 30th June 2026",
-    "category": "Dining"
-  },
-  {
-    "bank": "NTB",
-    "card": "Amex",
-    "merchant": "Waters Edge - The Bakery Lake",
-    "offer": "20% Savings",
-    "validity": "Valid till   30th June 2026",
     "category": "Dining"
   },
   {
@@ -413,30 +509,6 @@
     "merchant": "SUBWAY",
     "offer": "20% Savings",
     "validity": "Valid on Sundays from 1st of July 31st August 2026",
-    "category": "Dining"
-  },
-  {
-    "bank": "NTB",
-    "card": "Amex",
-    "merchant": "Waters Edge - Kobe at the Edge",
-    "offer": "20% savings",
-    "validity": "Valid till 30th June 2026",
-    "category": "Dining"
-  },
-  {
-    "bank": "NTB",
-    "card": "Amex",
-    "merchant": "Waters Edge - Members Lounge",
-    "offer": "20% savings",
-    "validity": "Valid till 30th June 2026",
-    "category": "Dining"
-  },
-  {
-    "bank": "NTB",
-    "card": "Amex",
-    "merchant": "Waters Edge - Boardwalk",
-    "offer": "20% Savings",
-    "validity": "Valid till 30th June 2026",
     "category": "Dining"
   },
   {
@@ -514,62 +586,6 @@
   {
     "bank": "NTB",
     "card": "Amex",
-    "merchant": "Greatwall Restaurants",
-    "offer": "20% Savings",
-    "validity": "Valid till 30th June 2026",
-    "category": "Dining"
-  },
-  {
-    "bank": "NTB",
-    "card": "Amex",
-    "merchant": "Avani Kalutara Resort",
-    "offer": "Special Savings",
-    "validity": "Valid till 30th June 2026",
-    "category": "Hotel"
-  },
-  {
-    "bank": "NTB",
-    "card": "Amex",
-    "merchant": "Anantaya Resort & Spa, Chilaw",
-    "offer": "Up to 50% savings",
-    "validity": "Valid till 30th June 2026",
-    "category": "Hotel"
-  },
-  {
-    "bank": "NTB",
-    "card": "Amex",
-    "merchant": "Up to 12 Month 0% Extended Settlement Plans",
-    "offer": "Installment Plans",
-    "validity": "Valid till 30th June 2026",
-    "category": "Hotel"
-  },
-  {
-    "bank": "NTB",
-    "card": "Amex",
-    "merchant": "Anantaya Resort & Spa, Pasikudah",
-    "offer": "Up to 50% Savings",
-    "validity": "Valid till 30th June 2026",
-    "category": "Hotel"
-  },
-  {
-    "bank": "NTB",
-    "card": "Amex",
-    "merchant": "Anantara Peace Haven Tangalle Resort",
-    "offer": "Special Savings",
-    "validity": "Valid till 30th June 2026",
-    "category": "Hotel"
-  },
-  {
-    "bank": "NTB",
-    "card": "Amex",
-    "merchant": "Anantara Kalutara Resort",
-    "offer": "Special Savings",
-    "validity": "Valid till 30th June 2026",
-    "category": "Hotel"
-  },
-  {
-    "bank": "NTB",
-    "card": "Amex",
     "merchant": "Wattura Resort & Spa",
     "offer": "Up to 35% savings",
     "validity": "Valid till 15th December 2026",
@@ -581,14 +597,6 @@
     "merchant": "Luxor Kirindi Ella Resort & Spa",
     "offer": "Up to 20% Savings",
     "validity": "Valid till 31st July 2026",
-    "category": "Hotel"
-  },
-  {
-    "bank": "NTB",
-    "card": "Amex",
-    "merchant": "Uga Bay",
-    "offer": "45% Savings",
-    "validity": "Valid till 30th June 2026",
     "category": "Hotel"
   },
   {
@@ -714,14 +722,6 @@
   {
     "bank": "NTB",
     "card": "Amex",
-    "merchant": "Wild Culture Yala",
-    "offer": "25% Savings",
-    "validity": "Valid from 1st May to 30th June 2026",
-    "category": "Hotel"
-  },
-  {
-    "bank": "NTB",
-    "card": "Amex",
     "merchant": "Thaha's at Galle Fort",
     "offer": "10% Savings",
     "validity": "Valid till 30th June 2027",
@@ -810,41 +810,9 @@
   {
     "bank": "NTB",
     "card": "Amex",
-    "merchant": "Hanthana Eco Lodge",
-    "offer": "Up to 50% Savings",
-    "validity": "Valid from 1st May to 30th June 2026",
-    "category": "Hotel"
-  },
-  {
-    "bank": "NTB",
-    "card": "Amex",
     "merchant": "The Manor",
     "offer": "10% Savings",
     "validity": "Valid till 30th April 2027",
-    "category": "Hotel"
-  },
-  {
-    "bank": "NTB",
-    "card": "Amex",
-    "merchant": "Uga Jungle Beach",
-    "offer": "45% Savings",
-    "validity": "Valid till  30th June 2026",
-    "category": "Hotel"
-  },
-  {
-    "bank": "NTB",
-    "card": "Amex",
-    "merchant": "Uga Prava",
-    "offer": "20% Savings",
-    "validity": "Valid till  30th June 2026",
-    "category": "Hotel"
-  },
-  {
-    "bank": "NTB",
-    "card": "Amex",
-    "merchant": "Fox Resort Kandy",
-    "offer": "40% savings",
-    "validity": "Valid from 1st April to 30th June 2026",
     "category": "Hotel"
   },
   {
@@ -874,22 +842,6 @@
   {
     "bank": "NTB",
     "card": "Amex",
-    "merchant": "Mandara Rosen Kataragama",
-    "offer": "30% Savings",
-    "validity": "Valid till 30th June 2026",
-    "category": "Hotel"
-  },
-  {
-    "bank": "NTB",
-    "card": "Amex",
-    "merchant": "Mandara Resort Mirissa",
-    "offer": "30% Savings",
-    "validity": "Valid till 30th June 2026",
-    "category": "Hotel"
-  },
-  {
-    "bank": "NTB",
-    "card": "Amex",
     "merchant": "Randiya Sea View Hotel",
     "offer": "20% Savings",
     "validity": "Valid till 30th November 2026",
@@ -909,22 +861,6 @@
     "merchant": "Hotel Sudu Araliya",
     "offer": "35% Savings",
     "validity": "Valid till 31st July 2026",
-    "category": "Hotel"
-  },
-  {
-    "bank": "NTB",
-    "card": "Amex",
-    "merchant": "The Glenrock Luxury Nature Resort",
-    "offer": "25% Savings",
-    "validity": "Valid till  30th June 2026",
-    "category": "Hotel"
-  },
-  {
-    "bank": "NTB",
-    "card": "Amex",
-    "merchant": "Saludiya Retreat Resort and SPA",
-    "offer": "20% Savings",
-    "validity": "Valid till  30th June 2026",
     "category": "Hotel"
   },
   {
@@ -1010,22 +946,6 @@
   {
     "bank": "NTB",
     "card": "Amex",
-    "merchant": "Fox Jaffna by Fox Resorts",
-    "offer": "35% savings",
-    "validity": "Valid from 1st April to 30th June 2026",
-    "category": "Hotel"
-  },
-  {
-    "bank": "NTB",
-    "card": "Amex",
-    "merchant": "Mahaweli Reach - Kandy",
-    "offer": "20% Savings",
-    "validity": "Valid till 30th June 2026",
-    "category": "Hotel"
-  },
-  {
-    "bank": "NTB",
-    "card": "Amex",
     "merchant": "Kings Ridge Kandy",
     "offer": "20% Savings",
     "validity": "Valid till  10th July 2026",
@@ -1053,14 +973,6 @@
     "merchant": "Hotel Tree of Life",
     "offer": "20% savings",
     "validity": "Valid from 1st April to  31st October 2026",
-    "category": "Hotel"
-  },
-  {
-    "bank": "NTB",
-    "card": "Amex",
-    "merchant": "Rajarata Hotel",
-    "offer": "40% savings",
-    "validity": "Valid till 30th June 2026",
     "category": "Hotel"
   },
   {
@@ -1125,30 +1037,6 @@
     "merchant": "Aditya Resort",
     "offer": "20% Savings",
     "validity": "Valid from 1st May to 30th November 2026",
-    "category": "Hotel"
-  },
-  {
-    "bank": "NTB",
-    "card": "Amex",
-    "merchant": "Solara Beach House",
-    "offer": "15% Savings",
-    "validity": "Valid till 30th June 2026",
-    "category": "Hotel"
-  },
-  {
-    "bank": "NTB",
-    "card": "Amex",
-    "merchant": "Tropical Life Resort and Spa - Dambulla",
-    "offer": "35% Savings",
-    "validity": "Valid till 30th June 2026",
-    "category": "Hotel"
-  },
-  {
-    "bank": "NTB",
-    "card": "Amex",
-    "merchant": "Elegant Hotel",
-    "offer": "20% Savings",
-    "validity": "Valid from 1st April to 30th June 2026",
     "category": "Hotel"
   },
   {
