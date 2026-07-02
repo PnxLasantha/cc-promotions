@@ -191,6 +191,7 @@ async function scrapeSeylan(page, baseUrl, category) {
     return true;
   });
 
-  fs.writeFileSync('offers.json', JSON.stringify(deduped, null, 2));
+  const output = { updatedAt: new Date().toISOString(), offers: deduped };
+  fs.writeFileSync('offers.json', JSON.stringify(output, null, 2));
   console.log(`\nTotal: ${deduped.length} offers (${all.length - deduped.length} dupes removed) → offers.json`);
 })();

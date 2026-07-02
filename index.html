@@ -14,6 +14,11 @@
   }
   header h1 { font-size: 1.4rem; font-weight: 700; letter-spacing: -0.3px; }
   #total-count { font-size: 0.85rem; opacity: 0.7; margin-top: 2px; }
+  #updated { font-size: 0.78rem; margin-top: 3px; display: flex; align-items: center; gap: 6px; }
+  #updated::before { content: ''; width: 7px; height: 7px; border-radius: 50%; background: currentColor; flex-shrink: 0; }
+  #updated.updated-fresh { color: #4ade80; }
+  #updated.updated-warn  { color: #fbbf24; }
+  #updated.updated-stale { color: #f87171; }
 
   .filters {
     background: #fff; padding: 14px 32px; border-bottom: 1px solid #e0e0e0;
@@ -103,6 +108,7 @@
   <div>
     <h1>Credit Card Offers · Sri Lanka</h1>
     <div id="total-count"></div>
+    <div id="updated"></div>
   </div>
 </header>
 
@@ -245,9 +251,33 @@ document.getElementById('sort').addEventListener('change', e => {
   render();
 });
 
-fetch('offers.json')
+function renderUpdated(updatedAt) {
+  const el = document.getElementById('updated');
+  const t = updatedAt ? new Date(updatedAt).getTime() : NaN;
+  if (!t || isNaN(t)) {
+    el.className = 'updated-stale';
+    el.textContent = 'Update time unknown';
+    return;
+  }
+  const mins = Math.floor((Date.now() - t) / 60000);
+  let rel;
+  if (mins < 1)        rel = 'just now';
+  else if (mins < 60)  rel = `${mins}m ago`;
+  else if (mins < 1440) rel = `${Math.floor(mins / 60)}h ago`;
+  else                 rel = `${Math.floor(mins / 1440)}d ago`;
+
+  const hrs = mins / 60;
+  el.className = hrs < 24 ? 'updated-fresh' : hrs < 48 ? 'updated-warn' : 'updated-stale';
+  el.textContent = `Updated ${rel}`;
+}
+
+fetch('offers.json?t=' + Date.now(), { cache: 'no-store' })
   .then(r => r.json())
-  .then(data => { allOffers = data; render(); })
+  .then(data => {
+    allOffers = data.offers || data;   // tolerate old bare-array shape
+    renderUpdated(data.updatedAt);
+    render();
+  })
   .catch(() => {
     document.getElementById('content').innerHTML = '<div class="empty">Could not load offers.json — run node scrape.js first.</div>';
   });
