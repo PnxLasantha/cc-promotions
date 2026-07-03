@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-03T02:41:38.610Z",
+  "updatedAt": "2026-07-03T13:58:33.093Z",
   "offers": [
     {
       "bank": "NTB",
@@ -20,6 +20,14 @@
     {
       "bank": "NTB",
       "card": "Amex",
+      "merchant": "Companion dines for free",
+      "offer": "Explorer cards",
+      "validity": "Valid every Mon to Wed till  31st August 2026",
+      "category": "Dining"
+    },
+    {
+      "bank": "NTB",
+      "card": "Amex",
       "merchant": "Arabian Knights",
       "offer": "15% Savings",
       "validity": "Valid till 31st July 2026",
@@ -30,7 +38,7 @@
       "card": "Amex",
       "merchant": "Hilton Colombo - Emperor's Wok",
       "offer": "30% savings",
-      "validity": "Valid till  31st July 2026",
+      "validity": "Valid till  31st August 2026",
       "category": "Dining"
     },
     {
@@ -102,7 +110,7 @@
       "card": "Amex",
       "merchant": "Cinnamon Lakeside - Royal Thai",
       "offer": "30% Savings",
-      "validity": "Valid from 1st July to 31st August 2026",
+      "validity": "Valid till 31st August 2026",
       "category": "Dining"
     },
     {
@@ -358,7 +366,7 @@
       "card": "Amex",
       "merchant": "Food Studio - CCC",
       "offer": "25% Savings",
-      "validity": "Valid from 1st July to 30th July 2026",
+      "validity": "Valid till 30th July 2026",
       "category": "Dining"
     },
     {
@@ -974,6 +982,22 @@
       "card": "Seylan Credit",
       "merchant": "Centauria  Resorts",
       "offer": "UP TO 20% OFF WITH YOUR SEYLAN CARDS...",
+      "validity": "",
+      "category": "Hotel"
+    },
+    {
+      "bank": "Seylan",
+      "card": "Seylan Credit",
+      "merchant": "Shangri-La Hambantota Golf Resort & Spa",
+      "offer": "up to 40% Off on Full Board & Half Board Basis with your Seylan Cards...",
+      "validity": "",
+      "category": "Hotel"
+    },
+    {
+      "bank": "Seylan",
+      "card": "Seylan Credit",
+      "merchant": "UGA ESCAPES",
+      "offer": "Enjoy 20% off on Room Rates when redeeming points with your Seylan Cards...",
       "validity": "",
       "category": "Hotel"
     },
