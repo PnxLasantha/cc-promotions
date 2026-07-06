@@ -1,6 +1,6 @@
 const { test } = require('node:test');
 const assert = require('node:assert');
-const { parseExpiry, isExpired, dedupe, floorCheck, carryForward } = require('../lib');
+const { parseExpiry, isExpired, dedupe, floorCheck, carryForward, previousCounts } = require('../lib');
 
 // --- Task 2: parseExpiry / isExpired -------------------------------------
 
@@ -90,4 +90,48 @@ test('carryForward: reuses previous offers for a failed source', () => {
   assert.strictEqual(carried.length, 1);
   assert.strictEqual(carried[0].source, 'carried');
   assert.strictEqual(carried[0].merchant, 'M1');
+});
+
+// --- Task 1 (fixes): previousCounts ratchet on health --------------------
+
+test('previousCounts: failed run keeps last healthy baseline (no ratchet-down)', () => {
+  const prev = { sourceStatus: { amex: { status: 'failed', count: 0, previousCount: 127 } } };
+  assert.deepStrictEqual(previousCounts(prev), { amex: 127 });
+});
+
+test('previousCounts: floored run keeps last healthy baseline', () => {
+  const prev = { sourceStatus: { amex: { status: 'floor', count: 40, previousCount: 100 } } };
+  assert.deepStrictEqual(previousCounts(prev), { amex: 100 });
+});
+
+test('previousCounts: ok run updates baseline to its raw count', () => {
+  const prev = { sourceStatus: { amex: { status: 'ok', count: 127, previousCount: 110 } } };
+  assert.deepStrictEqual(previousCounts(prev), { amex: 127 });
+});
+
+test('previousCounts: mixed statuses across sources', () => {
+  const prev = { sourceStatus: {
+    'ntb-credit': { status: 'ok', count: 29, previousCount: 25 },
+    amex: { status: 'failed', count: 0, previousCount: 127 },
+    seylan: { status: 'floor', count: 5, previousCount: 34 },
+  } };
+  assert.deepStrictEqual(previousCounts(prev), { 'ntb-credit': 29, amex: 127, seylan: 34 });
+});
+
+test('previousCounts: null -> {}', () => {
+  assert.deepStrictEqual(previousCounts(null), {});
+});
+
+test('previousCounts: no sourceStatus falls back to counting by sourceName', () => {
+  const prev = { offers: [
+    { sourceName: 'amex' }, { sourceName: 'amex' }, { sourceName: 'seylan' },
+    { /* no sourceName */ },
+  ] };
+  assert.deepStrictEqual(previousCounts(prev), { amex: 2, seylan: 1 });
+});
+
+test('previousCounts: disarm scenario — floorCheck(0, baseline) stays false after a failed run', () => {
+  const prev = { sourceStatus: { amex: { status: 'failed', count: 0, previousCount: 127 } } };
+  const baseline = previousCounts(prev).amex;
+  assert.strictEqual(floorCheck(0, baseline), false);
 });
