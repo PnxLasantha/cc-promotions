@@ -1,5 +1,6 @@
 // Pure logic extracted from scrape.js so it is testable without Playwright.
 // No browser / Playwright imports may be added here.
+// Ratchet rule: floor-check baselines only update on status:'ok' runs (see previousCounts).
 
 // The NTB hotel dedicated page is rate-limited (403); this data is hardcoded
 // from the last successful manual fetch (see staticSourcedAt in scrape.js).
