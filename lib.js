@@ -143,7 +143,26 @@ function carryForward(prevOffers, sourceName, srcOf) {
     .map((o) => ({ ...o, source: 'carried' }));
 }
 
+// Per-source floor-check baseline from the previous offers.json. The baseline
+// ratchets on health: only a status:'ok' run adopts its raw count; failed/floor
+// runs carry the last healthy previousCount forward, so the alert never disarms
+// itself. Falls back to counting by sourceName for pre-sourceStatus files.
+function previousCounts(prev) {
+  if (prev && prev.sourceStatus) {
+    const counts = {};
+    for (const [name, s] of Object.entries(prev.sourceStatus)) {
+      counts[name] = s.status === 'ok' ? (s.count || 0) : (s.previousCount || 0);
+    }
+    return counts;
+  }
+  const counts = {};
+  for (const o of (prev && prev.offers) || []) {
+    if (o.sourceName) counts[o.sourceName] = (counts[o.sourceName] || 0) + 1;
+  }
+  return counts;
+}
+
 module.exports = {
   NTB_HOTELS_STATIC, staticNtbHotelOffers, dedupe,
-  parseExpiry, isExpired, floorCheck, carryForward,
+  parseExpiry, isExpired, floorCheck, carryForward, previousCounts,
 };

@@ -1,7 +1,7 @@
 // ponytail: single script, writes offers.json
 const { chromium } = require('@playwright/test');
 const fs = require('fs');
-const { staticNtbHotelOffers, dedupe, isExpired, floorCheck, carryForward } = require('./lib');
+const { staticNtbHotelOffers, dedupe, isExpired, floorCheck, carryForward, previousCounts } = require('./lib');
 
 // Date of the last manual fetch of the hardcoded NTB hotel block (git febf0c1).
 const STATIC_SOURCED_AT = '2026-06-29';
@@ -124,25 +124,6 @@ function loadPrevious() {
   } catch {
     return null;
   }
-}
-
-function countBySource(offers) {
-  const counts = {};
-  for (const o of offers) if (o.sourceName) counts[o.sourceName] = (counts[o.sourceName] || 0) + 1;
-  return counts;
-}
-
-// Previous per-source raw scrape counts, for the floor check. Prefer the counts
-// recorded in last run's sourceStatus (raw, like-for-like with this run's raw
-// counts); fall back to counting final offers by sourceName for files written
-// before sourceStatus existed.
-function previousCounts(prev) {
-  if (prev && prev.sourceStatus) {
-    const counts = {};
-    for (const [name, s] of Object.entries(prev.sourceStatus)) counts[name] = s.count || 0;
-    return counts;
-  }
-  return countBySource((prev && prev.offers) || []);
 }
 
 const srcOf = (o) => o.sourceName;
