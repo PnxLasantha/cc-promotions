@@ -282,12 +282,15 @@ function renderUpdated(updatedAt) {
   el.textContent = `Updated ${rel}`;
 }
 
+// Display names for internal source keys; unknown sources fall back to the raw key.
+const SOURCE_NAMES = { 'ntb-credit': 'NTB', amex: 'NTB Amex', seylan: 'Seylan' };
+
 // One banner per source whose last scrape failed or floored (data carried forward).
 function renderStale() {
   const el = document.getElementById('stale');
   const bad = Object.entries(sourceStatus).filter(([, s]) => s && s.status !== 'ok');
   el.innerHTML = bad
-    .map(([name]) => `<div class="stale-banner">⚠ ${esc(name)} data may be stale (last good fetch carried forward)</div>`)
+    .map(([name]) => `<div class="stale-banner">⚠ ${esc(SOURCE_NAMES[name] || name)} data may be stale (last good fetch carried forward)</div>`)
     .join('');
 }
 
