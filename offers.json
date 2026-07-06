@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-06T02:55:12.487Z",
+  "updatedAt": "2026-07-06T15:27:06.542Z",
   "offers": [
     {
       "bank": "NTB",
@@ -46,7 +46,7 @@
       "card": "Amex",
       "merchant": "Domino's",
       "offer": "25% savings",
-      "validity": "Valid on Mondays from 1st of July 31st July 2026",
+      "validity": "Valid on Mondays from 1st of July 31st August 2026",
       "category": "Dining"
     },
     {
@@ -54,7 +54,7 @@
       "card": "Amex",
       "merchant": "Taj Samudra Colombo - Golden Dragon",
       "offer": "20% Savings",
-      "validity": "Valid till  31st July 2026",
+      "validity": "Valid till  31st August 2026",
       "category": "Dining"
     },
     {
@@ -86,7 +86,7 @@
       "card": "Amex",
       "merchant": "Taj Samudra Colombo - Navratna",
       "offer": "20% Savings",
-      "validity": "Valid till 31st July 2026",
+      "validity": "Valid till 31st August 2026",
       "category": "Dining"
     },
     {
@@ -102,7 +102,7 @@
       "card": "Amex",
       "merchant": "Taj Samudra Colombo - YUMI",
       "offer": "20% Savings",
-      "validity": "Valid till  31st July 2026",
+      "validity": "Valid till  31st August 2026",
       "category": "Dining"
     },
     {
@@ -596,22 +596,6 @@
     {
       "bank": "NTB",
       "card": "Amex",
-      "merchant": "Club Palm Bay Hotel - Marawila",
-      "offer": "30% Savings",
-      "validity": "Valid till 31st July 2026",
-      "category": "Hotel"
-    },
-    {
-      "bank": "NTB",
-      "card": "Amex",
-      "merchant": "Sigiriya Village Hotel",
-      "offer": "30% Savings",
-      "validity": "Valid till  31st July 2026",
-      "category": "Hotel"
-    },
-    {
-      "bank": "NTB",
-      "card": "Amex",
       "merchant": "Thilanka Hotel Kandy",
       "offer": "35% Savings",
       "validity": "Valid till 15th August 2026",
@@ -879,6 +863,14 @@
       "merchant": "Aditya Resort",
       "offer": "20% Savings",
       "validity": "Valid from 1st May to 30th November 2026",
+      "category": "Hotel"
+    },
+    {
+      "bank": "NTB",
+      "card": "Amex",
+      "merchant": "Sheraton Colombo Hotel",
+      "offer": "20% Savings",
+      "validity": "Valid till 31st July 2026",
       "category": "Hotel"
     },
     {
