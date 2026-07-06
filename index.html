@@ -92,6 +92,13 @@
 
   .offer-desc { font-size: 0.82rem; color: #555; line-height: 1.4; margin-bottom: 6px; }
   .validity { font-size: 0.75rem; color: #999; }
+  .static-badge { font-size: 0.68rem; color: #b0b0b0; margin-top: 4px; font-style: italic; }
+
+  .stale-banner {
+    font-size: 0.8rem; color: #92400e; background: #fef3c7;
+    border: 1px solid #fcd34d; border-radius: 6px;
+    padding: 6px 10px; margin-top: 8px;
+  }
 
   .empty { padding: 48px; text-align: center; color: #aaa; font-size: 0.9rem; }
 
@@ -109,6 +116,7 @@
     <h1>Credit Card Offers · Sri Lanka</h1>
     <div id="total-count"></div>
     <div id="updated"></div>
+    <div id="stale"></div>
   </div>
 </header>
 
@@ -152,6 +160,8 @@
 
 <script>
 let allOffers = [];
+let staticSourcedAt = '';
+let sourceStatus = {};
 let filterBank = 'all';
 let filterCat  = 'all';
 let filterDisc = 'all';
@@ -215,6 +225,7 @@ function render() {
                 </div>
                 ${o.offer ? `<div class="offer-desc">${esc(o.offer)}</div>` : ''}
                 ${o.validity ? `<div class="validity">${esc(o.validity)}</div>` : ''}
+                ${o.source === 'static' && staticSourcedAt ? `<div class="static-badge">data as of ${esc(staticSourcedAt)}</div>` : ''}
               </div>
             `).join('')}
           </div>
@@ -271,11 +282,23 @@ function renderUpdated(updatedAt) {
   el.textContent = `Updated ${rel}`;
 }
 
+// One banner per source whose last scrape failed or floored (data carried forward).
+function renderStale() {
+  const el = document.getElementById('stale');
+  const bad = Object.entries(sourceStatus).filter(([, s]) => s && s.status !== 'ok');
+  el.innerHTML = bad
+    .map(([name]) => `<div class="stale-banner">⚠ ${esc(name)} data may be stale (last good fetch carried forward)</div>`)
+    .join('');
+}
+
 fetch('offers.json?t=' + Date.now(), { cache: 'no-store' })
   .then(r => r.json())
   .then(data => {
     allOffers = data.offers || data;   // tolerate old bare-array shape
+    staticSourcedAt = data.staticSourcedAt || '';
+    sourceStatus = data.sourceStatus || {};
     renderUpdated(data.updatedAt);
+    renderStale();
     render();
   })
   .catch(() => {

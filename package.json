@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "test": "node --test test/lib.test.js",
+    "validate": "node --test test/validate-offers.test.js"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",

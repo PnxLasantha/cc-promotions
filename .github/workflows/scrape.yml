@@ -4,7 +4,7 @@ on:
   schedule:
     - cron: '0 0,12 * * *'   # midnight + noon UTC
   push:
-    branches: [main]
+    branches: [master]
   workflow_dispatch:           # allow manual trigger from Actions tab
 
 jobs:
@@ -22,9 +22,22 @@ jobs:
 
       - run: npm ci
 
+      # Unit tests need no browser — run before the (slow) Playwright install.
+      - name: Unit tests
+        run: npm test
+
       - run: npx playwright install chromium --with-deps
 
-      - run: node scrape.js
+      # Scrape may exit 1 when a source failed/floored (data still written +
+      # carried forward). Let the job continue so the commit still happens.
+      - name: Scrape
+        id: scrape
+        continue-on-error: true
+        run: node scrape.js
+
+      # Bad data must not ship — this blocks the commit if it fails.
+      - name: Validate generated offers
+        run: npm run validate
 
       - name: Commit updated offers
         run: |
@@ -33,3 +46,10 @@ jobs:
           git add offers.json
           git diff --cached --quiet || git commit -m "chore: refresh offers [skip ci]"
           git push
+
+      # Make the run red (and fire notifications) AFTER the commit is pushed.
+      - name: Fail if scrape failed
+        if: steps.scrape.outcome == 'failure'
+        run: |
+          echo "Scrape reported failure/floor — see logs and sourceStatus in offers.json."
+          exit 1
