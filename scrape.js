@@ -1,6 +1,10 @@
 // ponytail: single script, writes offers.json
 const { chromium } = require('@playwright/test');
 const fs = require('fs');
+const { staticNtbHotelOffers, dedupe, isExpired, floorCheck, carryForward, previousCounts } = require('./lib');
+
+// Date of the last manual fetch of the hardcoded NTB hotel block (git febf0c1).
+const STATIC_SOURCED_AT = '2026-06-29';
 
 async function autoScroll(page) {
   await page.evaluate(async () => {
@@ -83,115 +87,119 @@ async function scrapeSeylan(page, baseUrl, category) {
   return all;
 }
 
+// Scrape sources. Each `run(page)` returns tagged offer objects for that source;
+// amex and seylan internally cover their two categories.
+const SOURCES = [
+  {
+    name: 'ntb-credit',
+    run: async (page) => {
+      console.log('\n[NTB Credit]');
+      const ntb = await scrapeNTB(page);
+      return ntb.map(o => ({ bank: 'NTB', card: 'NTB Credit', ...o }));
+    },
+  },
+  {
+    name: 'amex',
+    run: async (page) => {
+      console.log('\n[Amex]');
+      const dining = await scrapeAmex(page, 'https://www.americanexpress.lk/en/offers/dining-offers', 'Dining');
+      const hotel  = await scrapeAmex(page, 'https://www.americanexpress.lk/en/offers/lodging-offers', 'Hotel');
+      return [...dining, ...hotel].map(o => ({ bank: 'NTB', card: 'Amex', ...o }));
+    },
+  },
+  {
+    name: 'seylan',
+    run: async (page) => {
+      console.log('\n[Seylan Credit]');
+      const dining = await scrapeSeylan(page, 'https://www.seylan.lk/promotions/cards/dining', 'Dining');
+      const hotel  = await scrapeSeylan(page, 'https://www.seylan.lk/promotions/cards/local-travel', 'Hotel');
+      return [...dining, ...hotel].map(o => ({ bank: 'Seylan', card: 'Seylan Credit', ...o }));
+    },
+  },
+];
+
+function loadPrevious() {
+  try {
+    return JSON.parse(fs.readFileSync('offers.json', 'utf8'));
+  } catch {
+    return null;
+  }
+}
+
+const srcOf = (o) => o.sourceName;
+
 (async () => {
+  const prev = loadPrevious();
+  const prevOffers = (prev && prev.offers) || [];
+  const prevCounts = previousCounts(prev);
+
   const browser = await chromium.launch({ headless: true });
   const page = await browser.newPage();
 
-  const all = [];
+  const collected = [];
+  const sourceStatus = {};
+  let anyFailed = false;
 
-  // NTB Credit (Mastercard)
-  console.log('\n[NTB Credit]');
-  const ntb = await scrapeNTB(page);
-  ntb.forEach(o => all.push({ bank: 'NTB', card: 'NTB Credit', ...o }));
-  console.log(`  → ${ntb.length} offers`);
+  for (const src of SOURCES) {
+    const previousCount = prevCounts[src.name] || 0;
+    try {
+      let offers = (await src.run(page)).map(o => ({ ...o, source: 'scraped', sourceName: src.name }));
+      const count = offers.length;
 
-  // Amex (issued by NTB)
-  console.log('\n[Amex]');
-  const amexDining = await scrapeAmex(page, 'https://www.americanexpress.lk/en/offers/dining-offers', 'Dining');
-  const amexHotel  = await scrapeAmex(page, 'https://www.americanexpress.lk/en/offers/lodging-offers', 'Hotel');
-  [...amexDining, ...amexHotel].forEach(o => all.push({ bank: 'NTB', card: 'Amex', ...o }));
-  console.log(`  → ${amexDining.length} dining + ${amexHotel.length} hotel`);
-
-  // Seylan Credit
-  console.log('\n[Seylan Credit]');
-  const seyDining = await scrapeSeylan(page, 'https://www.seylan.lk/promotions/cards/dining', 'Dining');
-  const seyHotel  = await scrapeSeylan(page, 'https://www.seylan.lk/promotions/cards/local-travel', 'Hotel');
-  [...seyDining, ...seyHotel].forEach(o => all.push({ bank: 'Seylan', card: 'Seylan Credit', ...o }));
-  console.log(`  → ${seyDining.length} dining + ${seyHotel.length} hotel`);
+      // Floor check: a source that collapses to < 50% of its previous count
+      // (when we had a healthy history) is treated as markup drift → carry forward.
+      if (!floorCheck(count, previousCount)) {
+        console.log(`  ⚠ floor: ${count} offers < 50% of previous ${previousCount} — carrying forward`);
+        collected.push(...carryForward(prevOffers, src.name, srcOf));
+        sourceStatus[src.name] = { status: 'floor', count, previousCount };
+        anyFailed = true;
+      } else {
+        collected.push(...offers);
+        sourceStatus[src.name] = { status: 'ok', count, previousCount };
+        console.log(`  → ${count} offers`);
+      }
+    } catch (err) {
+      console.error(`  ✗ ${src.name} failed: ${err.message} — carrying forward`);
+      collected.push(...carryForward(prevOffers, src.name, srcOf));
+      sourceStatus[src.name] = { status: 'failed', count: 0, previousCount, error: err.message };
+      anyFailed = true;
+    }
+  }
 
   await browser.close();
 
-  // NTB hotel dedicated page is rate-limited (403) — data hardcoded from last successful fetch
-  const ntbHotels = [
-    ["Oasey Beach Hotel","20% off","Until 31 Oct 2026"],
-    ["Thaha's at Galle Fort","10% off","Until 30 Jun 2027"],
-    ["Amaara Forest Hotel, Sigiriya & Amaara Sky Hotel, Kandy","50% off","Stays until 31 Aug 2026"],
-    ["Citrus Waskaduwa","15% off","1–31 Jul 2026"],
-    ["Sigiriana Resort by Thilanka Dambulla","35% off","Until 31 Oct 2026"],
-    ["Morven Hotel, Colombo","20% off","Until 31 Oct 2026"],
-    ["The Flame Tree Estate, Galagedara","40% off","Until 30 Sep 2026"],
-    ["WildEscape - Yala","Up to 15% off","Until 31 Jul 2026"],
-    ["Ravana Garden","60% off","Until 31 Jul 2026"],
-    ["Mandara Resort - Mirissa","30% off","Until 30 Nov 2025"],
-    ["Mandara Rosen - Kataragama","30% off","Until 30 Nov 2025"],
-    ["Anantaya Resorts & Spa - Pasikudah","Up to 50% off","Until 15 Jul 2026"],
-    ["Anantaya Resorts & Spa - Chilaw","Up to 50% off","Until 30 Aug 2026"],
-    ["Aarunya Nature Resort & Spa","10% savings on DBL","Until 31 Oct 2026"],
-    ["Avani Kalutara Resort","Special rates from LKR 45,000","Until 21 Aug 2026"],
-    ["Anantara Peace Haven Tangalle Resort","Special rates from LKR 95,000","Until 31 Aug 2026"],
-    ["Anantara Kalutara Resort","Special rates from LKR 72,000","Until 31 Aug 2026"],
-    ["Tropical Life Resort & Spa Dambulla","35% off","Until 30 Jun 2026"],
-    ["Sudu Araliya, Polonnaruwa","35% off","Until 31 Jul 2026"],
-    ["Wattura Resort & Spa","Up to 35% off","Until 15 Dec 2026"],
-    ["Apa Villa Thalpe / Era Beach Thalpe / Lotus Estate / Joe's Resorts","20% off","Until 31 Dec 2026"],
-    ["Luxor Kirindi Ella Resort & Spa","Up to 20% off","Until 31 Jul 2026"],
-    ["Thilanka Hotel Kandy","35% off","Until 15 Aug 2026"],
-    ["Trio Lodge, Habarana","35% off","Until 31 Oct 2026"],
-    ["Hotel Tree of Life Nature Resort","20% off","1 Apr – 31 Oct 2026"],
-    ["Nyne Hotels","30% off","5 Jun – 30 Nov 2026"],
-    ["Mahaweli Reach Hotel","20% off","Until 30 Jun 2026"],
-    ["Saluditya Retreat & Spa","20% off","Until 30 Jun 2026"],
-    ["Athulya Villa, Kandy","25% off","Until 31 Jan 2027"],
-    ["Elegant Hotel, Kandy","20% off","1 Apr – 30 Jun 2026"],
-    ["Banana Bunks Mirissa & Kandy","25% off","Until 1 Jul 2026"],
-    ["Kent Cottage","25% off","Until 1 Jul 2026"],
-    ["Fox Resort Kandy","40% off","1 Apr – 30 Jun 2026"],
-    ["Fox Resort Jaffna","35% off","1 Apr – 30 Jun 2026"],
-    ["Hanthana Eco Lodge","Up to 50% off","1 May – 30 Jun 2026"],
-    ["Uga Prava, Tangalle","20% off","Until 30 Jun 2026"],
-    ["Taj Bentota Resort & Spa","25% off","Until 31 Oct 2026"],
-    ["Hide Ella Hotel and Resort","40% off","1 May – 15 Jul 2026"],
-    ["Wild Culture Yala","25% off","1 May – 31 Oct 2026"],
-    ["The Golden Crown Hotel, Kandy","25% off","1 May – 15 Jul 2026"],
-    ["The Golden Ridge, Nuwara Eliya","20% off","1 May – 15 Jul 2026"],
-    ["Kahanda Kanda","30% off","1 May – 31 Oct 2026"],
-    ["The Villa Bentota","30% off","1 May – 31 Oct 2026"],
-    ["KK Beach","35% off","1 May – 31 Oct 2026"],
-    ["ARD LUI Residence","30% off","1 May – 31 Jul 2026"],
-    ["Amagi Aria, Negombo","Up to 20% off","Until 31 Jul 2026"],
-    ["Amagi Beach, Marawila","Up to 20% off","Until 31 Jul 2026"],
-    ["The Glenrock Wellness Nature Resort","25% off","Until 30 Jun 2026"],
-    ["Randiya Sea View Hotel, Mirissa","20% off","11 May – 30 Nov 2026"],
-    ["Earl's Regent Hotel, Kandy","30% off","11 May – 31 Jul 2026"],
-    ["Sigiriya Jungles Resort & Spa","Up to 35% off","Until 15 Jul 2026"],
-    ["Simpson's Forest Luxury Boutique Resort & Spa, Kandy","25% off","Until 31 Oct 2026"],
-    ["Aprota Villas","25% off","Until 31 Dec 2026"],
-    ["Elephant Reach Hotel","25% off","15 May – 15 Jul 2026"],
-    ["Celestia Ayurveda Resort","25% off","1 Jun – 31 Aug 2026"],
-    ["Villa Labugolla","Up to 20% off","Until 31 Jul 2026"],
-    ["The Sun House, Galle","Special rates (BB/HB/FB)","8 May – 31 Jul 2026"],
-    ["Regal Reseau Hotel & Spa","30% off","Until 30 Jun 2026"],
-    ["Sigiriya Village Hotel","30% off","Until 31 Jul 2026"],
-    ["Club Palm Bay, Marawila","30% off","Until 31 Jul 2026"],
-    ["Uga Jungle Beach, Trincomalee","45% off","Until 30 Jun 2025"],
-    ["Uga Bay","45% off","Until 30 Jun 2025"],
-    ["Araliya Green City Hotel, Nuwara Eliya","30% off","Until 31 Jul 2026"],
-    ["Araliya Green Hills Hotel, Nuwara Eliya","30% off","Until 31 Jul 2026"],
-    ["Araliya Red Hotel, Nuwara Eliya","30% off","Until 31 Jul 2026"],
-  ].map(([merchant, offer, validity]) => ({ bank: 'NTB', card: 'NTB Credit', merchant, offer, validity, category: 'Hotel' }));
+  // NTB hotel dedicated page is rate-limited (403) — data hardcoded from last
+  // successful manual fetch; labeled so it is honest in output and UI (Task 5).
+  collected.push(...staticNtbHotelOffers({ source: 'static', sourceName: 'ntb-hotels-static', sourcedAt: STATIC_SOURCED_AT }));
 
-  all.push(...ntbHotels);
+  // Deduplicate by card + merchant + offer (case-insensitive), keep first occurrence
+  const deduped = dedupe(collected);
 
-  // Deduplicate by card + merchant (case-insensitive), keep first occurrence
-  const seen = new Set();
-  const deduped = all.filter(o => {
-    const key = `${o.card}|${o.merchant.toLowerCase().trim()}`;
-    if (seen.has(key)) return false;
-    seen.add(key);
+  // Drop expired offers (fail-open: offers with no readable date are kept).
+  const droppedByCard = {};
+  const live = deduped.filter(o => {
+    if (isExpired(o.validity)) {
+      droppedByCard[o.card] = (droppedByCard[o.card] || 0) + 1;
+      return false;
+    }
     return true;
   });
+  const droppedTotal = deduped.length - live.length;
+  console.log(`\nExpiry filter: dropped ${droppedTotal} expired offer(s)` +
+    (droppedTotal ? ' — ' + Object.entries(droppedByCard).map(([c, n]) => `${c}: ${n}`).join(', ') : ''));
 
-  const output = { updatedAt: new Date().toISOString(), offers: deduped };
+  const output = {
+    updatedAt: new Date().toISOString(),
+    staticSourcedAt: STATIC_SOURCED_AT,
+    sourceStatus,
+    offers: live,
+  };
   fs.writeFileSync('offers.json', JSON.stringify(output, null, 2));
-  console.log(`\nTotal: ${deduped.length} offers (${all.length - deduped.length} dupes removed) → offers.json`);
+  console.log(`\nTotal: ${live.length} offers (${collected.length - deduped.length} dupes removed) → offers.json`);
+  console.log('Source status:', JSON.stringify(sourceStatus));
+
+  if (anyFailed) {
+    console.error('\n✗ One or more sources failed or floored — see sourceStatus above.');
+    process.exit(1);
+  }
 })();
