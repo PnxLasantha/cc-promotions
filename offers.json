@@ -1,15 +1,15 @@
 {
-  "updatedAt": "2026-07-07T04:02:49.985Z",
+  "updatedAt": "2026-07-07T14:27:54.293Z",
   "staticSourcedAt": "2026-06-29",
   "sourceStatus": {
     "ntb-credit": {
       "status": "ok",
-      "count": 29,
+      "count": 60,
       "previousCount": 29
     },
     "amex": {
       "status": "ok",
-      "count": 127,
+      "count": 126,
       "previousCount": 127
     },
     "seylan": {
@@ -45,16 +45,6 @@
       "merchant": "The Palestine Bakery",
       "offer": "Enjoy 15% off with Mastercard Credit Card",
       "validity": "Valid till 31st July 2026",
-      "category": "Dining",
-      "source": "scraped",
-      "sourceName": "ntb-credit"
-    },
-    {
-      "bank": "NTB",
-      "card": "NTB Credit",
-      "merchant": "Sheraton Colombo Hotel – Bayu",
-      "offer": "Enjoy 20% off with Mastercard Credit Cards",
-      "validity": "Valid till 31st August 2026",
       "category": "Dining",
       "source": "scraped",
       "sourceName": "ntb-credit"
@@ -102,36 +92,6 @@
     {
       "bank": "NTB",
       "card": "NTB Credit",
-      "merchant": "Full’r Burgers",
-      "offer": "Enjoy 20% off with Mastercard Credit Cards",
-      "validity": "Valid every Wednesday till 31st August 2026",
-      "category": "Dining",
-      "source": "scraped",
-      "sourceName": "ntb-credit"
-    },
-    {
-      "bank": "NTB",
-      "card": "NTB Credit",
-      "merchant": "Indian Affair",
-      "offer": "Enjoy 20% off with Mastercard Credit Cards",
-      "validity": "Valid every Saturday till 31st August 2026",
-      "category": "Dining",
-      "source": "scraped",
-      "sourceName": "ntb-credit"
-    },
-    {
-      "bank": "NTB",
-      "card": "NTB Credit",
-      "merchant": "Solo Bowl",
-      "offer": "Enjoy 20% off with Mastercard Credit Cards",
-      "validity": "Valid every Sunday 31st August 2026",
-      "category": "Dining",
-      "source": "scraped",
-      "sourceName": "ntb-credit"
-    },
-    {
-      "bank": "NTB",
-      "card": "NTB Credit",
       "merchant": "Radisson Hotel Kandy",
       "offer": "Enjoy 20% off with Mastercard Credit Cards",
       "validity": "Valid till 31st August 2026",
@@ -156,6 +116,506 @@
       "offer": "Enjoy 20% off with Mastercard Credit Cards",
       "validity": "Valid till 31st August 2026",
       "category": "Dining",
+      "source": "scraped",
+      "sourceName": "ntb-credit"
+    },
+    {
+      "bank": "NTB",
+      "card": "NTB Credit",
+      "merchant": "The Swiss Residence",
+      "offer": "40% off with Mastercard Credit & Debit Cards",
+      "validity": "Valid till 31st December 2026",
+      "category": "Hotel",
+      "source": "scraped",
+      "sourceName": "ntb-credit"
+    },
+    {
+      "bank": "NTB",
+      "card": "NTB Credit",
+      "merchant": "Yara Hotel, Nuwara Eliya",
+      "offer": "20% off with Mastercard Credit Cards",
+      "validity": "Valid till 31st July 2026",
+      "category": "Hotel",
+      "source": "scraped",
+      "sourceName": "ntb-credit"
+    },
+    {
+      "bank": "NTB",
+      "card": "NTB Credit",
+      "merchant": "Oasey Beach Hotel",
+      "offer": "20% off with Mastercard Credit Cards & 15% with Mastercard Debit Cards",
+      "validity": "Valid 31st October 2026",
+      "category": "Hotel",
+      "source": "scraped",
+      "sourceName": "ntb-credit"
+    },
+    {
+      "bank": "NTB",
+      "card": "NTB Credit",
+      "merchant": "Thaha's at Galle Fort",
+      "offer": "10% off with Mastercard Credit Cards",
+      "validity": "Valid till 30th June 2027",
+      "category": "Hotel",
+      "source": "scraped",
+      "sourceName": "ntb-credit"
+    },
+    {
+      "bank": "NTB",
+      "card": "NTB Credit",
+      "merchant": "Citrus Waskaduwa",
+      "offer": "15% off with Mastercard Credit Cards",
+      "validity": "Valid from 1st to 31st July 2026",
+      "category": "Hotel",
+      "source": "scraped",
+      "sourceName": "ntb-credit"
+    },
+    {
+      "bank": "NTB",
+      "card": "NTB Credit",
+      "merchant": "Sigiriana Resort by Thilanka Dambulla",
+      "offer": "35% off with Mastercard Credit Cards",
+      "validity": "Valid till 31st October 2026",
+      "category": "Hotel",
+      "source": "scraped",
+      "sourceName": "ntb-credit"
+    },
+    {
+      "bank": "NTB",
+      "card": "NTB Credit",
+      "merchant": "Morven Hotel, Colombo",
+      "offer": "20% off with Mastercard Credit Cards",
+      "validity": "Valid till 31st October 2026",
+      "category": "Hotel",
+      "source": "scraped",
+      "sourceName": "ntb-credit"
+    },
+    {
+      "bank": "NTB",
+      "card": "NTB Credit",
+      "merchant": "The Flame Tree Estate, Galagedara",
+      "offer": "40% off with Mastercard Credit Cards",
+      "validity": "Valid till 30th September 2026",
+      "category": "Hotel",
+      "source": "scraped",
+      "sourceName": "ntb-credit"
+    },
+    {
+      "bank": "NTB",
+      "card": "NTB Credit",
+      "merchant": "WildEscape - Yala Blocks 3, 4 & 5",
+      "offer": "Up to 15% off with Mastercard Credit & Debit Cards",
+      "validity": "Valid from till 31st July 2026",
+      "category": "Hotel",
+      "source": "scraped",
+      "sourceName": "ntb-credit"
+    },
+    {
+      "bank": "NTB",
+      "card": "NTB Credit",
+      "merchant": "Anantaya Resorts & Spa - Pasikudah",
+      "offer": "Up to 50% off with Mastercard Credit Cards",
+      "validity": "Booking period: till 31st July 2026 | Stay period: till 31st August 2026",
+      "category": "Hotel",
+      "source": "scraped",
+      "sourceName": "ntb-credit"
+    },
+    {
+      "bank": "NTB",
+      "card": "NTB Credit",
+      "merchant": "Ravana Garden",
+      "offer": "60% off with Mastercard Credit & Debit Cards",
+      "validity": "Valid till 31st July 2026",
+      "category": "Hotel",
+      "source": "scraped",
+      "sourceName": "ntb-credit"
+    },
+    {
+      "bank": "NTB",
+      "card": "NTB Credit",
+      "merchant": "Anantaya Resorts & Spa - Chilaw",
+      "offer": "Up to 50% off with Mastercard Credit Cards",
+      "validity": "Booking period - till 31st July 2026 | Stay period: till 31st October 2026",
+      "category": "Hotel",
+      "source": "scraped",
+      "sourceName": "ntb-credit"
+    },
+    {
+      "bank": "NTB",
+      "card": "NTB Credit",
+      "merchant": "Aarunya Nature Resort & Spa",
+      "offer": "Special offers with Mastercard Credit Cards",
+      "validity": "Valid till 31st October 2026",
+      "category": "Hotel",
+      "source": "scraped",
+      "sourceName": "ntb-credit"
+    },
+    {
+      "bank": "NTB",
+      "card": "NTB Credit",
+      "merchant": "Sudu Araliya, Polonnaruwa",
+      "offer": "35% off with Mastercard Credit and Debit Cards",
+      "validity": "Valid till 31st July 2026",
+      "category": "Hotel",
+      "source": "scraped",
+      "sourceName": "ntb-credit"
+    },
+    {
+      "bank": "NTB",
+      "card": "NTB Credit",
+      "merchant": "Wattura Resort & Spa",
+      "offer": "Up to 35% off with Mastercard Credit Cards",
+      "validity": "Valid till 15th December 2026",
+      "category": "Hotel",
+      "source": "scraped",
+      "sourceName": "ntb-credit"
+    },
+    {
+      "bank": "NTB",
+      "card": "NTB Credit",
+      "merchant": "Apa Villa Thalpe",
+      "offer": "20% off with Mastercard Credit Cards",
+      "validity": "Valid till 31st December 2026",
+      "category": "Hotel",
+      "source": "scraped",
+      "sourceName": "ntb-credit"
+    },
+    {
+      "bank": "NTB",
+      "card": "NTB Credit",
+      "merchant": "Era Beach Thalpe",
+      "offer": "20% off with Mastercard Credit Cards",
+      "validity": "Valid till 31st December 2026",
+      "category": "Hotel",
+      "source": "scraped",
+      "sourceName": "ntb-credit"
+    },
+    {
+      "bank": "NTB",
+      "card": "NTB Credit",
+      "merchant": "Lotus Estate Colombo",
+      "offer": "20% off with Mastercard Credit Cards",
+      "validity": "Valid till 31st December 2026",
+      "category": "Hotel",
+      "source": "scraped",
+      "sourceName": "ntb-credit"
+    },
+    {
+      "bank": "NTB",
+      "card": "NTB Credit",
+      "merchant": "Joes Resort Unawatuna",
+      "offer": "20% off with Mastercard Credit Cards",
+      "validity": "Valid till 31st December 2026",
+      "category": "Hotel",
+      "source": "scraped",
+      "sourceName": "ntb-credit"
+    },
+    {
+      "bank": "NTB",
+      "card": "NTB Credit",
+      "merchant": "Joes Resorts Bentota",
+      "offer": "20% off with Mastercard Credit Cards",
+      "validity": "Valid till 31st December 2026",
+      "category": "Hotel",
+      "source": "scraped",
+      "sourceName": "ntb-credit"
+    },
+    {
+      "bank": "NTB",
+      "card": "NTB Credit",
+      "merchant": "Luxor Kirindi Ella Resort & Spa",
+      "offer": "Up to 20% off with Mastercard Credit Cards",
+      "validity": "Valid till 31st July 2026",
+      "category": "Hotel",
+      "source": "scraped",
+      "sourceName": "ntb-credit"
+    },
+    {
+      "bank": "NTB",
+      "card": "NTB Credit",
+      "merchant": "Trio Lodge, Habarana",
+      "offer": "35% off with Mastercard Credit Cards",
+      "validity": "Valid till 31st October 2026",
+      "category": "Hotel",
+      "source": "scraped",
+      "sourceName": "ntb-credit"
+    },
+    {
+      "bank": "NTB",
+      "card": "NTB Credit",
+      "merchant": "Thilanka Hotel Kandy",
+      "offer": "35% off with Mastercard Credit Cards",
+      "validity": "Valid till 15th August 2026",
+      "category": "Hotel",
+      "source": "scraped",
+      "sourceName": "ntb-credit"
+    },
+    {
+      "bank": "NTB",
+      "card": "NTB Credit",
+      "merchant": "Taj Bentota Resort & Spa",
+      "offer": "25% off with Mastercard Credit Cards",
+      "validity": "Valid till 31st October 2026",
+      "category": "Hotel",
+      "source": "scraped",
+      "sourceName": "ntb-credit"
+    },
+    {
+      "bank": "NTB",
+      "card": "NTB Credit",
+      "merchant": "Hotel Tree of Life Nature Resort",
+      "offer": "20% off with Mastercard Credit Cards",
+      "validity": "Valid from 1st April to 31st October 2026",
+      "category": "Hotel",
+      "source": "scraped",
+      "sourceName": "ntb-credit"
+    },
+    {
+      "bank": "NTB",
+      "card": "NTB Credit",
+      "merchant": "Hide Ella Hotel and Resort",
+      "offer": "40% off with Mastercard Credit Cards",
+      "validity": "Valid from 1st May to 15th July 2026",
+      "category": "Hotel",
+      "source": "scraped",
+      "sourceName": "ntb-credit"
+    },
+    {
+      "bank": "NTB",
+      "card": "NTB Credit",
+      "merchant": "Athulya Villa, Kandy",
+      "offer": "25% off with Mastercard Credit & Debit Cards",
+      "validity": "Valid till 31st January 2027",
+      "category": "Hotel",
+      "source": "scraped",
+      "sourceName": "ntb-credit"
+    },
+    {
+      "bank": "NTB",
+      "card": "NTB Credit",
+      "merchant": "The Golden Crown Hotel, Kandy",
+      "offer": "25% off with Mastercard Credit Cards",
+      "validity": "Valid from 1st May to 15th July 2026",
+      "category": "Hotel",
+      "source": "scraped",
+      "sourceName": "ntb-credit"
+    },
+    {
+      "bank": "NTB",
+      "card": "NTB Credit",
+      "merchant": "Wild Culture Yala",
+      "offer": "25% off with Mastercard Credit Cards",
+      "validity": "Booking period: from 1st May to 30th June 2026 | Stay period: from 1st May to 31st October 2026",
+      "category": "Hotel",
+      "source": "scraped",
+      "sourceName": "ntb-credit"
+    },
+    {
+      "bank": "NTB",
+      "card": "NTB Credit",
+      "merchant": "The Golden Ridge, Nuwara Eliya",
+      "offer": "20% off with Mastercard Credit Cards",
+      "validity": "Valid from 1st May to 15th July 2026",
+      "category": "Hotel",
+      "source": "scraped",
+      "sourceName": "ntb-credit"
+    },
+    {
+      "bank": "NTB",
+      "card": "NTB Credit",
+      "merchant": "Kahanda Kanda",
+      "offer": "30% off with Mastercard Credit Cards",
+      "validity": "Valid from 1st May to 31st October 2026",
+      "category": "Hotel",
+      "source": "scraped",
+      "sourceName": "ntb-credit"
+    },
+    {
+      "bank": "NTB",
+      "card": "NTB Credit",
+      "merchant": "The Villa Bentota",
+      "offer": "30% off with Mastercard Credit Cards",
+      "validity": "Valid from 1st May to 31st October 2026",
+      "category": "Hotel",
+      "source": "scraped",
+      "sourceName": "ntb-credit"
+    },
+    {
+      "bank": "NTB",
+      "card": "NTB Credit",
+      "merchant": "KK Beach",
+      "offer": "35% off with Mastercard Credit Cards",
+      "validity": "Valid from 1st May to 31st October 2026",
+      "category": "Hotel",
+      "source": "scraped",
+      "sourceName": "ntb-credit"
+    },
+    {
+      "bank": "NTB",
+      "card": "NTB Credit",
+      "merchant": "ARD LUI Residence",
+      "offer": "30% off with Mastercard Credit Cards",
+      "validity": "Valid from 1st May to 31st July 2026",
+      "category": "Hotel",
+      "source": "scraped",
+      "sourceName": "ntb-credit"
+    },
+    {
+      "bank": "NTB",
+      "card": "NTB Credit",
+      "merchant": "Amagi Aria, Negombo",
+      "offer": "Up to 20% off with Mastercard Credit & Debit Cards",
+      "validity": "Valid till 31st July 2026",
+      "category": "Hotel",
+      "source": "scraped",
+      "sourceName": "ntb-credit"
+    },
+    {
+      "bank": "NTB",
+      "card": "NTB Credit",
+      "merchant": "Randiya Sea View Hotel, Mirissa",
+      "offer": "20% off with Mastercard Credit Cards",
+      "validity": "Valid from 11th May to 30th November 2026",
+      "category": "Hotel",
+      "source": "scraped",
+      "sourceName": "ntb-credit"
+    },
+    {
+      "bank": "NTB",
+      "card": "NTB Credit",
+      "merchant": "Amagi Beach, Marawila",
+      "offer": "Up to 20% off with Mastercard Credit & Debit Carda",
+      "validity": "Valid till 31st July 2026",
+      "category": "Hotel",
+      "source": "scraped",
+      "sourceName": "ntb-credit"
+    },
+    {
+      "bank": "NTB",
+      "card": "NTB Credit",
+      "merchant": "Earl’s Regent Hotel, Kandy",
+      "offer": "30% off with Mastercard Credit & Debit Cards",
+      "validity": "Valid from 11th May to 31st July 2026",
+      "category": "Hotel",
+      "source": "scraped",
+      "sourceName": "ntb-credit"
+    },
+    {
+      "bank": "NTB",
+      "card": "NTB Credit",
+      "merchant": "Sigiriya Jungles Resort & Spa",
+      "offer": "Up to 35% off with Mastercard Credit & Debit Cards",
+      "validity": "Valid till 15th July 2026",
+      "category": "Hotel",
+      "source": "scraped",
+      "sourceName": "ntb-credit"
+    },
+    {
+      "bank": "NTB",
+      "card": "NTB Credit",
+      "merchant": "Simpson’s Forest – Luxury Boutique Resort & Spa, Kandy",
+      "offer": "25% off with Mastercard Credit & Debit Cards",
+      "validity": "Valid till 31st October 2026",
+      "category": "Hotel",
+      "source": "scraped",
+      "sourceName": "ntb-credit"
+    },
+    {
+      "bank": "NTB",
+      "card": "NTB Credit",
+      "merchant": "Aprota Villas",
+      "offer": "25% off with Mastercard Credit Cards",
+      "validity": "Valid till 31st December 2026",
+      "category": "Hotel",
+      "source": "scraped",
+      "sourceName": "ntb-credit"
+    },
+    {
+      "bank": "NTB",
+      "card": "NTB Credit",
+      "merchant": "Elephant Reach Hotel",
+      "offer": "25% off with Mastercard Credit Card",
+      "validity": "Valid from 15th May to 15th July 2026",
+      "category": "Hotel",
+      "source": "scraped",
+      "sourceName": "ntb-credit"
+    },
+    {
+      "bank": "NTB",
+      "card": "NTB Credit",
+      "merchant": "Celestia Ayurveda Resort",
+      "offer": "25% off with Mastercard Credit Cards",
+      "validity": "Valid from 1st June to 31st August 2026",
+      "category": "Hotel",
+      "source": "scraped",
+      "sourceName": "ntb-credit"
+    },
+    {
+      "bank": "NTB",
+      "card": "NTB Credit",
+      "merchant": "Villa Labugolla",
+      "offer": "Up to 20% off with Mastercard Credit Cards",
+      "validity": "Valid till 31st July 2026",
+      "category": "Hotel",
+      "source": "scraped",
+      "sourceName": "ntb-credit"
+    },
+    {
+      "bank": "NTB",
+      "card": "NTB Credit",
+      "merchant": "The Sun House, Galle",
+      "offer": "Special offers with Mastercard Credit Cards",
+      "validity": "Valid from 8th May to 31st July 2026",
+      "category": "Hotel",
+      "source": "scraped",
+      "sourceName": "ntb-credit"
+    },
+    {
+      "bank": "NTB",
+      "card": "NTB Credit",
+      "merchant": "Sigiriya Village Hotel",
+      "offer": "30% off with Mastercard Credit Cards",
+      "validity": "Valid till 31st July 2026",
+      "category": "Hotel",
+      "source": "scraped",
+      "sourceName": "ntb-credit"
+    },
+    {
+      "bank": "NTB",
+      "card": "NTB Credit",
+      "merchant": "Club Palm Bay, Marawila",
+      "offer": "30% off with Mastercard Credit Cards",
+      "validity": "Valid till 31st July 2026",
+      "category": "Hotel",
+      "source": "scraped",
+      "sourceName": "ntb-credit"
+    },
+    {
+      "bank": "NTB",
+      "card": "NTB Credit",
+      "merchant": "Araliya Green City Hotel, Nuwara Eliya",
+      "offer": "30% off with Mastercard Credit Cards",
+      "validity": "Valid till 31st July 2026",
+      "category": "Hotel",
+      "source": "scraped",
+      "sourceName": "ntb-credit"
+    },
+    {
+      "bank": "NTB",
+      "card": "NTB Credit",
+      "merchant": "Araliya Green Hills Hotel, Nuwara Eliya",
+      "offer": "30% off with Mastercard Credit Cards",
+      "validity": "Valid till 31st July 2026",
+      "category": "Hotel",
+      "source": "scraped",
+      "sourceName": "ntb-credit"
+    },
+    {
+      "bank": "NTB",
+      "card": "NTB Credit",
+      "merchant": "Araliya Red Hotel, Nuwara Eliya",
+      "offer": "30% off with Mastercard Credit Cards",
+      "validity": "Valid till 31st July 2026",
+      "category": "Hotel",
       "source": "scraped",
       "sourceName": "ntb-credit"
     },
@@ -885,16 +1345,6 @@
       "merchant": "Araliya Red Hotel",
       "offer": "30% Savings",
       "validity": "Valid till 31st July 2026",
-      "category": "Hotel",
-      "source": "scraped",
-      "sourceName": "amex"
-    },
-    {
-      "bank": "NTB",
-      "card": "Amex",
-      "merchant": "Regal Reseau Hotel & Spa",
-      "offer": "30% Savings",
-      "validity": "Valid till 30th June 2027",
       "category": "Hotel",
       "source": "scraped",
       "sourceName": "amex"
