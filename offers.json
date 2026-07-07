@@ -1,21 +1,21 @@
 {
-  "updatedAt": "2026-07-06T17:32:07.422Z",
+  "updatedAt": "2026-07-07T04:02:49.985Z",
   "staticSourcedAt": "2026-06-29",
   "sourceStatus": {
     "ntb-credit": {
       "status": "ok",
       "count": 29,
-      "previousCount": 0
+      "previousCount": 29
     },
     "amex": {
       "status": "ok",
       "count": 127,
-      "previousCount": 0
+      "previousCount": 127
     },
     "seylan": {
       "status": "ok",
       "count": 34,
-      "previousCount": 0
+      "previousCount": 34
     }
   },
   "offers": [
@@ -188,14 +188,6 @@
       "category": "Dining",
       "source": "scraped",
       "sourceName": "amex"
-    },
-    {
-      "bank": "NTB",
-      "card": "Amex",
-      "merchant": "Companion dines for free",
-      "offer": "Explorer cards",
-      "validity": "Valid every Mon to Wed till  31st August 2026",
-      "category": "Dining"
     },
     {
       "bank": "NTB",
@@ -1258,14 +1250,6 @@
       "sourceName": "amex"
     },
     {
-      "bank": "NTB",
-      "card": "Amex",
-      "merchant": "Sheraton Colombo Hotel",
-      "offer": "20% Savings",
-      "validity": "Valid till 31st July 2026",
-      "category": "Hotel"
-    },
-    {
       "bank": "Seylan",
       "card": "Seylan Credit",
       "merchant": "THE MANGO TREE",
@@ -1414,22 +1398,6 @@
       "category": "Hotel",
       "source": "scraped",
       "sourceName": "seylan"
-    },
-    {
-      "bank": "Seylan",
-      "card": "Seylan Credit",
-      "merchant": "Shangri-La Hambantota Golf Resort & Spa",
-      "offer": "up to 40% Off on Full Board & Half Board Basis with your Seylan Cards...",
-      "validity": "",
-      "category": "Hotel"
-    },
-    {
-      "bank": "Seylan",
-      "card": "Seylan Credit",
-      "merchant": "UGA ESCAPES",
-      "offer": "Enjoy 20% off on Room Rates when redeeming points with your Seylan Cards...",
-      "validity": "",
-      "category": "Hotel"
     },
     {
       "bank": "Seylan",
