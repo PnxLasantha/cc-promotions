@@ -1,16 +1,16 @@
 {
-  "updatedAt": "2026-07-09T14:52:57.443Z",
+  "updatedAt": "2026-07-10T02:43:54.529Z",
   "staticSourcedAt": "2026-06-29",
   "sourceStatus": {
     "ntb-credit": {
-      "status": "ok",
-      "count": 67,
-      "previousCount": 60
+      "status": "floor",
+      "count": 0,
+      "previousCount": 67
     },
     "amex": {
       "status": "ok",
       "count": 129,
-      "previousCount": 126
+      "previousCount": 129
     },
     "seylan": {
       "status": "ok",
@@ -26,7 +26,7 @@
       "offer": "Enjoy 25% off with Mastercard Credit Card",
       "validity": "Valid till 31st July 2026",
       "category": "Dining",
-      "source": "scraped",
+      "source": "carried",
       "sourceName": "ntb-credit"
     },
     {
@@ -36,7 +36,7 @@
       "offer": "Enjoy 20% off with Mastercard Credit Card",
       "validity": "Valid till 30th November 2026",
       "category": "Dining",
-      "source": "scraped",
+      "source": "carried",
       "sourceName": "ntb-credit"
     },
     {
@@ -46,7 +46,7 @@
       "offer": "Enjoy 20% off for Nations Trust Credit Cards 10% off for Debit Cards on total bills",
       "validity": "Valid till 31st August 2026",
       "category": "Dining",
-      "source": "scraped",
+      "source": "carried",
       "sourceName": "ntb-credit"
     },
     {
@@ -56,7 +56,7 @@
       "offer": "Enjoy 25% off for Nations Trust Credit Cards 10% off for Debit Cards on total bills",
       "validity": "Valid till 31st August 2026",
       "category": "Dining",
-      "source": "scraped",
+      "source": "carried",
       "sourceName": "ntb-credit"
     },
     {
@@ -66,7 +66,7 @@
       "offer": "Enjoy 15% off with Mastercard Credit Cards",
       "validity": "Valid till 31st July 2026",
       "category": "Dining",
-      "source": "scraped",
+      "source": "carried",
       "sourceName": "ntb-credit"
     },
     {
@@ -76,7 +76,7 @@
       "offer": "Enjoy 20% off for Nations Trust Credit Cards 10% off for Debit Cards on total bills",
       "validity": "Valid till 31st August 2026",
       "category": "Dining",
-      "source": "scraped",
+      "source": "carried",
       "sourceName": "ntb-credit"
     },
     {
@@ -86,7 +86,7 @@
       "offer": "Enjoy 20% off for Nations Trust Credit Cards 10% off for Debit Cards on total bills",
       "validity": "Valid till 31st August 2026",
       "category": "Dining",
-      "source": "scraped",
+      "source": "carried",
       "sourceName": "ntb-credit"
     },
     {
@@ -96,7 +96,7 @@
       "offer": "Enjoy 20% off for Nations Trust Credit Cards 10% off for Debit Cards on total bills",
       "validity": "Valid till 31st August 2026",
       "category": "Dining",
-      "source": "scraped",
+      "source": "carried",
       "sourceName": "ntb-credit"
     },
     {
@@ -106,7 +106,7 @@
       "offer": "Enjoy 15% off with Mastercard Credit Card",
       "validity": "Valid till 31st July 2026",
       "category": "Dining",
-      "source": "scraped",
+      "source": "carried",
       "sourceName": "ntb-credit"
     },
     {
@@ -116,7 +116,7 @@
       "offer": "Enjoy 20% off with Mastercard Credit Cards",
       "validity": "Valid till 31st July 2026",
       "category": "Dining",
-      "source": "scraped",
+      "source": "carried",
       "sourceName": "ntb-credit"
     },
     {
@@ -126,7 +126,7 @@
       "offer": "Enjoy 15% off with Mastercard Credit Cards",
       "validity": "Valid till 31st July 2026",
       "category": "Dining",
-      "source": "scraped",
+      "source": "carried",
       "sourceName": "ntb-credit"
     },
     {
@@ -136,7 +136,7 @@
       "offer": "Enjoy 20% off with Mastercard Credit Cards",
       "validity": "Valid till 31st August 2026",
       "category": "Dining",
-      "source": "scraped",
+      "source": "carried",
       "sourceName": "ntb-credit"
     },
     {
@@ -146,7 +146,7 @@
       "offer": "Enjoy 20% off with Mastercard Credit Cards",
       "validity": "Valid till 31st August 2026",
       "category": "Dining",
-      "source": "scraped",
+      "source": "carried",
       "sourceName": "ntb-credit"
     },
     {
@@ -156,7 +156,7 @@
       "offer": "Enjoy 20% off with Mastercard Credit Cards",
       "validity": "Valid till 31st August 2026",
       "category": "Dining",
-      "source": "scraped",
+      "source": "carried",
       "sourceName": "ntb-credit"
     },
     {
@@ -166,7 +166,7 @@
       "offer": "Enjoy 20% off with Mastercard Credit Cards",
       "validity": "Valid till 31st August 2026",
       "category": "Dining",
-      "source": "scraped",
+      "source": "carried",
       "sourceName": "ntb-credit"
     },
     {
@@ -176,7 +176,7 @@
       "offer": "Enjoy 20% off with Mastercard Credit Cards",
       "validity": "Valid till 31st August 2026",
       "category": "Dining",
-      "source": "scraped",
+      "source": "carried",
       "sourceName": "ntb-credit"
     },
     {
@@ -186,7 +186,7 @@
       "offer": "40% off with Mastercard Credit & Debit Cards",
       "validity": "Valid till 31st December 2026",
       "category": "Hotel",
-      "source": "scraped",
+      "source": "carried",
       "sourceName": "ntb-credit"
     },
     {
@@ -196,7 +196,7 @@
       "offer": "25% off with Mastercard Credit & Debit Cards",
       "validity": "Booking period: from 9th to 11th July 2026",
       "category": "Hotel",
-      "source": "scraped",
+      "source": "carried",
       "sourceName": "ntb-credit"
     },
     {
@@ -206,7 +206,7 @@
       "offer": "20% off with Mastercard Credit Cards",
       "validity": "Valid till 31st July 2026",
       "category": "Hotel",
-      "source": "scraped",
+      "source": "carried",
       "sourceName": "ntb-credit"
     },
     {
@@ -216,7 +216,7 @@
       "offer": "20% off with Mastercard Credit Cards & 15% with Mastercard Debit Cards",
       "validity": "Valid 31st October 2026",
       "category": "Hotel",
-      "source": "scraped",
+      "source": "carried",
       "sourceName": "ntb-credit"
     },
     {
@@ -226,7 +226,7 @@
       "offer": "10% off with Mastercard Credit Cards",
       "validity": "Valid till 30th June 2027",
       "category": "Hotel",
-      "source": "scraped",
+      "source": "carried",
       "sourceName": "ntb-credit"
     },
     {
@@ -236,7 +236,7 @@
       "offer": "15% off with Mastercard Credit Cards",
       "validity": "Valid from 1st to 31st July 2026",
       "category": "Hotel",
-      "source": "scraped",
+      "source": "carried",
       "sourceName": "ntb-credit"
     },
     {
@@ -246,7 +246,7 @@
       "offer": "35% off with Mastercard Credit Cards",
       "validity": "Valid till 31st October 2026",
       "category": "Hotel",
-      "source": "scraped",
+      "source": "carried",
       "sourceName": "ntb-credit"
     },
     {
@@ -256,7 +256,7 @@
       "offer": "20% off with Mastercard Credit Cards",
       "validity": "Valid till 31st October 2026",
       "category": "Hotel",
-      "source": "scraped",
+      "source": "carried",
       "sourceName": "ntb-credit"
     },
     {
@@ -266,7 +266,7 @@
       "offer": "40% off with Mastercard Credit Cards",
       "validity": "Valid till 30th September 2026",
       "category": "Hotel",
-      "source": "scraped",
+      "source": "carried",
       "sourceName": "ntb-credit"
     },
     {
@@ -276,7 +276,7 @@
       "offer": "Up to 15% off with Mastercard Credit & Debit Cards",
       "validity": "Valid from till 31st July 2026",
       "category": "Hotel",
-      "source": "scraped",
+      "source": "carried",
       "sourceName": "ntb-credit"
     },
     {
@@ -286,7 +286,7 @@
       "offer": "Up to 50% off with Mastercard Credit Cards",
       "validity": "Booking period: till 31st July 2026 | Stay period: till 31st August 2026",
       "category": "Hotel",
-      "source": "scraped",
+      "source": "carried",
       "sourceName": "ntb-credit"
     },
     {
@@ -296,7 +296,7 @@
       "offer": "60% off with Mastercard Credit & Debit Cards",
       "validity": "Valid till 31st July 2026",
       "category": "Hotel",
-      "source": "scraped",
+      "source": "carried",
       "sourceName": "ntb-credit"
     },
     {
@@ -306,7 +306,7 @@
       "offer": "Up to 50% off with Mastercard Credit Cards",
       "validity": "Booking period - till 31st July 2026 | Stay period: till 31st October 2026",
       "category": "Hotel",
-      "source": "scraped",
+      "source": "carried",
       "sourceName": "ntb-credit"
     },
     {
@@ -316,7 +316,7 @@
       "offer": "Special offers with Mastercard Credit Cards",
       "validity": "Valid till 31st October 2026",
       "category": "Hotel",
-      "source": "scraped",
+      "source": "carried",
       "sourceName": "ntb-credit"
     },
     {
@@ -326,7 +326,7 @@
       "offer": "35% off with Mastercard Credit and Debit Cards",
       "validity": "Valid till 31st July 2026",
       "category": "Hotel",
-      "source": "scraped",
+      "source": "carried",
       "sourceName": "ntb-credit"
     },
     {
@@ -336,7 +336,7 @@
       "offer": "Up to 35% off with Mastercard Credit Cards",
       "validity": "Valid till 15th December 2026",
       "category": "Hotel",
-      "source": "scraped",
+      "source": "carried",
       "sourceName": "ntb-credit"
     },
     {
@@ -346,7 +346,7 @@
       "offer": "20% off with Mastercard Credit Cards",
       "validity": "Valid till 31st December 2026",
       "category": "Hotel",
-      "source": "scraped",
+      "source": "carried",
       "sourceName": "ntb-credit"
     },
     {
@@ -356,7 +356,7 @@
       "offer": "20% off with Mastercard Credit Cards",
       "validity": "Valid till 31st December 2026",
       "category": "Hotel",
-      "source": "scraped",
+      "source": "carried",
       "sourceName": "ntb-credit"
     },
     {
@@ -366,7 +366,7 @@
       "offer": "20% off with Mastercard Credit Cards",
       "validity": "Valid till 31st December 2026",
       "category": "Hotel",
-      "source": "scraped",
+      "source": "carried",
       "sourceName": "ntb-credit"
     },
     {
@@ -376,7 +376,7 @@
       "offer": "20% off with Mastercard Credit Cards",
       "validity": "Valid till 31st December 2026",
       "category": "Hotel",
-      "source": "scraped",
+      "source": "carried",
       "sourceName": "ntb-credit"
     },
     {
@@ -386,7 +386,7 @@
       "offer": "20% off with Mastercard Credit Cards",
       "validity": "Valid till 31st December 2026",
       "category": "Hotel",
-      "source": "scraped",
+      "source": "carried",
       "sourceName": "ntb-credit"
     },
     {
@@ -396,7 +396,7 @@
       "offer": "Up to 20% off with Mastercard Credit Cards",
       "validity": "Valid till 31st July 2026",
       "category": "Hotel",
-      "source": "scraped",
+      "source": "carried",
       "sourceName": "ntb-credit"
     },
     {
@@ -406,7 +406,7 @@
       "offer": "35% off with Mastercard Credit Cards",
       "validity": "Valid till 15th August 2026",
       "category": "Hotel",
-      "source": "scraped",
+      "source": "carried",
       "sourceName": "ntb-credit"
     },
     {
@@ -416,7 +416,7 @@
       "offer": "35% off with Mastercard Credit Cards",
       "validity": "Valid till 31st October 2026",
       "category": "Hotel",
-      "source": "scraped",
+      "source": "carried",
       "sourceName": "ntb-credit"
     },
     {
@@ -426,7 +426,7 @@
       "offer": "20% off with Mastercard Credit Cards",
       "validity": "Valid from 1st April to 31st October 2026",
       "category": "Hotel",
-      "source": "scraped",
+      "source": "carried",
       "sourceName": "ntb-credit"
     },
     {
@@ -436,7 +436,7 @@
       "offer": "25% off with Mastercard Credit Cards",
       "validity": "Valid till 31st October 2026",
       "category": "Hotel",
-      "source": "scraped",
+      "source": "carried",
       "sourceName": "ntb-credit"
     },
     {
@@ -446,7 +446,7 @@
       "offer": "40% off with Mastercard Credit Cards",
       "validity": "Valid from 1st May to 15th July 2026",
       "category": "Hotel",
-      "source": "scraped",
+      "source": "carried",
       "sourceName": "ntb-credit"
     },
     {
@@ -456,7 +456,7 @@
       "offer": "25% off with Mastercard Credit & Debit Cards",
       "validity": "Valid till 31st January 2027",
       "category": "Hotel",
-      "source": "scraped",
+      "source": "carried",
       "sourceName": "ntb-credit"
     },
     {
@@ -466,7 +466,7 @@
       "offer": "25% off with Mastercard Credit Cards",
       "validity": "Booking period: from 1st May to 30th June 2026 | Stay period: from 1st May to 31st October 2026",
       "category": "Hotel",
-      "source": "scraped",
+      "source": "carried",
       "sourceName": "ntb-credit"
     },
     {
@@ -476,7 +476,7 @@
       "offer": "25% off with Mastercard Credit Cards",
       "validity": "Valid from 1st May to 15th July 2026",
       "category": "Hotel",
-      "source": "scraped",
+      "source": "carried",
       "sourceName": "ntb-credit"
     },
     {
@@ -486,7 +486,7 @@
       "offer": "20% off with Mastercard Credit Cards",
       "validity": "Valid from 1st May to 15th July 2026",
       "category": "Hotel",
-      "source": "scraped",
+      "source": "carried",
       "sourceName": "ntb-credit"
     },
     {
@@ -496,7 +496,7 @@
       "offer": "30% off with Mastercard Credit Cards",
       "validity": "Valid from 1st May to 31st October 2026",
       "category": "Hotel",
-      "source": "scraped",
+      "source": "carried",
       "sourceName": "ntb-credit"
     },
     {
@@ -506,7 +506,7 @@
       "offer": "30% off with Mastercard Credit Cards",
       "validity": "Valid from 1st May to 31st October 2026",
       "category": "Hotel",
-      "source": "scraped",
+      "source": "carried",
       "sourceName": "ntb-credit"
     },
     {
@@ -516,7 +516,7 @@
       "offer": "35% off with Mastercard Credit Cards",
       "validity": "Valid from 1st May to 31st October 2026",
       "category": "Hotel",
-      "source": "scraped",
+      "source": "carried",
       "sourceName": "ntb-credit"
     },
     {
@@ -526,7 +526,7 @@
       "offer": "30% off with Mastercard Credit Cards",
       "validity": "Valid from 1st May to 31st July 2026",
       "category": "Hotel",
-      "source": "scraped",
+      "source": "carried",
       "sourceName": "ntb-credit"
     },
     {
@@ -536,7 +536,7 @@
       "offer": "Up to 20% off with Mastercard Credit & Debit Cards",
       "validity": "Valid till 31st July 2026",
       "category": "Hotel",
-      "source": "scraped",
+      "source": "carried",
       "sourceName": "ntb-credit"
     },
     {
@@ -546,7 +546,7 @@
       "offer": "20% off with Mastercard Credit Cards",
       "validity": "Valid from 11th May to 30th November 2026",
       "category": "Hotel",
-      "source": "scraped",
+      "source": "carried",
       "sourceName": "ntb-credit"
     },
     {
@@ -556,7 +556,7 @@
       "offer": "Up to 20% off with Mastercard Credit & Debit Carda",
       "validity": "Valid till 31st July 2026",
       "category": "Hotel",
-      "source": "scraped",
+      "source": "carried",
       "sourceName": "ntb-credit"
     },
     {
@@ -566,7 +566,7 @@
       "offer": "30% off with Mastercard Credit & Debit Cards",
       "validity": "Valid from 11th May to 31st July 2026",
       "category": "Hotel",
-      "source": "scraped",
+      "source": "carried",
       "sourceName": "ntb-credit"
     },
     {
@@ -576,7 +576,7 @@
       "offer": "Up to 35% off with Mastercard Credit & Debit Cards",
       "validity": "Valid till 15th July 2026",
       "category": "Hotel",
-      "source": "scraped",
+      "source": "carried",
       "sourceName": "ntb-credit"
     },
     {
@@ -586,7 +586,7 @@
       "offer": "25% off with Mastercard Credit & Debit Cards",
       "validity": "Valid till 31st October 2026",
       "category": "Hotel",
-      "source": "scraped",
+      "source": "carried",
       "sourceName": "ntb-credit"
     },
     {
@@ -596,7 +596,7 @@
       "offer": "25% off with Mastercard Credit Cards",
       "validity": "Valid till 31st December 2026",
       "category": "Hotel",
-      "source": "scraped",
+      "source": "carried",
       "sourceName": "ntb-credit"
     },
     {
@@ -606,7 +606,7 @@
       "offer": "25% off with Mastercard Credit Card",
       "validity": "Valid from 15th May to 15th July 2026",
       "category": "Hotel",
-      "source": "scraped",
+      "source": "carried",
       "sourceName": "ntb-credit"
     },
     {
@@ -616,7 +616,7 @@
       "offer": "25% off with Mastercard Credit Cards",
       "validity": "Valid from 1st June to 31st August 2026",
       "category": "Hotel",
-      "source": "scraped",
+      "source": "carried",
       "sourceName": "ntb-credit"
     },
     {
@@ -626,7 +626,7 @@
       "offer": "Up to 20% off with Mastercard Credit Cards",
       "validity": "Valid till 31st July 2026",
       "category": "Hotel",
-      "source": "scraped",
+      "source": "carried",
       "sourceName": "ntb-credit"
     },
     {
@@ -636,7 +636,7 @@
       "offer": "Special offers with Mastercard Credit Cards",
       "validity": "Valid from 8th May to 31st July 2026",
       "category": "Hotel",
-      "source": "scraped",
+      "source": "carried",
       "sourceName": "ntb-credit"
     },
     {
@@ -646,7 +646,7 @@
       "offer": "30% off with Mastercard Credit Cards",
       "validity": "Valid till 31st July 2026",
       "category": "Hotel",
-      "source": "scraped",
+      "source": "carried",
       "sourceName": "ntb-credit"
     },
     {
@@ -656,7 +656,7 @@
       "offer": "30% off with Mastercard Credit Cards",
       "validity": "Valid till 31st July 2026",
       "category": "Hotel",
-      "source": "scraped",
+      "source": "carried",
       "sourceName": "ntb-credit"
     },
     {
@@ -666,7 +666,7 @@
       "offer": "30% off with Mastercard Credit Cards",
       "validity": "Valid till 31st July 2026",
       "category": "Hotel",
-      "source": "scraped",
+      "source": "carried",
       "sourceName": "ntb-credit"
     },
     {
@@ -676,7 +676,7 @@
       "offer": "30% off with Mastercard Credit Cards",
       "validity": "Valid till 31st July 2026",
       "category": "Hotel",
-      "source": "scraped",
+      "source": "carried",
       "sourceName": "ntb-credit"
     },
     {
@@ -686,7 +686,7 @@
       "offer": "30% off with Mastercard Credit Cards",
       "validity": "Valid till 31st July 2026",
       "category": "Hotel",
-      "source": "scraped",
+      "source": "carried",
       "sourceName": "ntb-credit"
     },
     {
