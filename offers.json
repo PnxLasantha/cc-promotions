@@ -1,15 +1,15 @@
 {
-  "updatedAt": "2026-07-10T14:18:49.890Z",
+  "updatedAt": "2026-07-11T02:25:19.532Z",
   "staticSourcedAt": "2026-06-29",
   "sourceStatus": {
     "ntb-credit": {
       "status": "ok",
-      "count": 72,
-      "previousCount": 67
+      "count": 71,
+      "previousCount": 72
     },
     "amex": {
       "status": "ok",
-      "count": 129,
+      "count": 126,
       "previousCount": 129
     },
     "seylan": {
@@ -245,16 +245,6 @@
       "merchant": "The Swiss Residence",
       "offer": "40% off with Mastercard Credit & Debit Cards",
       "validity": "Valid till 31st December 2026",
-      "category": "Hotel",
-      "source": "scraped",
-      "sourceName": "ntb-credit"
-    },
-    {
-      "bank": "NTB",
-      "card": "NTB Credit",
-      "merchant": "Sheraton Kosgoda Turtle Beach Resort",
-      "offer": "25% off with Mastercard Credit & Debit Cards",
-      "validity": "Booking period: from 9th to 11th July 2026",
       "category": "Hotel",
       "source": "scraped",
       "sourceName": "ntb-credit"
@@ -1685,36 +1675,6 @@
       "merchant": "Amagi Beach",
       "offer": "Up to 20% Savings",
       "validity": "Valid till  31st July 2026",
-      "category": "Hotel",
-      "source": "scraped",
-      "sourceName": "amex"
-    },
-    {
-      "bank": "NTB",
-      "card": "Amex",
-      "merchant": "Kings Ridge Kandy",
-      "offer": "20% Savings",
-      "validity": "Valid till  10th July 2026",
-      "category": "Hotel",
-      "source": "scraped",
-      "sourceName": "amex"
-    },
-    {
-      "bank": "NTB",
-      "card": "Amex",
-      "merchant": "Lake Avenue Kandy",
-      "offer": "20% Savings",
-      "validity": "Valid till  10th July 2026",
-      "category": "Hotel",
-      "source": "scraped",
-      "sourceName": "amex"
-    },
-    {
-      "bank": "NTB",
-      "card": "Amex",
-      "merchant": "RU Boutique Kandy",
-      "offer": "20% Savings",
-      "validity": "Valid till  10th July 2026",
       "category": "Hotel",
       "source": "scraped",
       "sourceName": "amex"
