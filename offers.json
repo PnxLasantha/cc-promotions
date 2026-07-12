@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-11T13:13:11.609Z",
+  "updatedAt": "2026-07-12T02:29:21.136Z",
   "staticSourcedAt": "2026-06-29",
   "sourceStatus": {
     "ntb-credit": {
@@ -9,7 +9,7 @@
     },
     "amex": {
       "status": "ok",
-      "count": 126,
+      "count": 123,
       "previousCount": 126
     },
     "seylan": {
@@ -1245,16 +1245,6 @@
       "merchant": "Anantaya Resort & Spa, Chilaw",
       "offer": "Up to 50% savings",
       "validity": "Valid till 31st July 2026",
-      "category": "Hotel",
-      "source": "scraped",
-      "sourceName": "amex"
-    },
-    {
-      "bank": "NTB",
-      "card": "Amex",
-      "merchant": "Sheraton Kosgoda Turtle Beach Resort",
-      "offer": "25% Savings",
-      "validity": "Valid from 9th to 11th July 2026",
       "category": "Hotel",
       "source": "scraped",
       "sourceName": "amex"
