@@ -19,6 +19,13 @@ async function autoScroll(page) {
   });
 }
 
+// Anchors on "Learn More" links + h6/h5 tags + exact-text category labels
+// instead of class names, since a transient markup change tripped the floor
+// guard on 2026-07-13 (run #31, NTB returned 0). Re-verified 2026-07-14 that
+// the old .grid-item/.info/.promo-footer selectors are back and byte-for-byte
+// match this version (71/71 offers) — kept the resilient version anyway so a
+// future class rename doesn't repeat the outage. Page is fully server-rendered
+// (no scroll needed to reach all 71 cards), autoScroll kept only as insurance.
 async function scrapeNTB(page) {
   console.log('  NTB promotions page...');
   await page.goto('https://www.nationstrust.com/promotions', { waitUntil: 'load', timeout: 60000 });
@@ -26,20 +33,46 @@ async function scrapeNTB(page) {
   await autoScroll(page);
 
   return page.evaluate(() => {
+    const CATEGORY_MAP = { 'Dining': 'Dining', 'Hotels & Resorts': 'Hotel' };
+    const CATEGORY_LABELS = Object.keys(CATEGORY_MAP);
     const results = [];
-    document.querySelectorAll('.grid-item').forEach(card => {
-      const classes = card.className;
-      const isDining = classes.includes('dining');
-      const isHotel  = classes.includes('hotels-resorts');
-      if (!isDining && !isHotel) return;
+    const seen = new Set();
 
-      const merchant  = card.querySelector('.info h6')?.textContent?.trim();
-      const offer     = card.querySelector('.info h5')?.textContent?.trim() || '';
-      const validity  = card.querySelector('.promo-footer small')?.textContent?.trim() || '';
-      const category  = isHotel ? 'Hotel' : 'Dining';
+    document.querySelectorAll('a[href*="/promotions/"]').forEach(link => {
+      if (!/learn\s*more/i.test(link.textContent || '')) return;
 
-      if (merchant) results.push({ merchant, offer, validity, category });
+      // Walk up to the card container: first ancestor with h6 + h5;
+      // bail out if it contains multiple cards.
+      let card = link.parentElement;
+      while (card && card !== document.body) {
+        const learnMores = Array.from(card.querySelectorAll('a')).filter(a =>
+          /learn\s*more/i.test(a.textContent || ''));
+        if (learnMores.length > 1) { card = null; break; }
+        if (card.querySelector('h6') && card.querySelector('h5')) break;
+        card = card.parentElement;
+      }
+      if (!card || card === document.body) return;
+
+      // Category from an exact-text leaf label — not class names, not substrings.
+      const catEl = Array.from(card.querySelectorAll('*')).find(el =>
+        el.children.length === 0 && CATEGORY_LABELS.includes((el.textContent || '').trim()));
+      if (!catEl) return;
+      const category = CATEGORY_MAP[catEl.textContent.trim()];
+
+      const merchant = card.querySelector('h6')?.textContent?.trim();
+      const offer    = card.querySelector('h5')?.textContent?.trim() || '';
+      const validity = Array.from(card.querySelectorAll('*'))
+        .filter(el => el.children.length === 0)
+        .map(el => (el.textContent || '').trim())
+        .find(t => /^(valid|booking period|stay period|until)/i.test(t)) || '';
+
+      if (!merchant) return;
+      const key = merchant + '|' + offer;
+      if (seen.has(key)) return;
+      seen.add(key);
+      results.push({ merchant, offer, validity, category });
     });
+
     return results;
   });
 }
