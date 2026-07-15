@@ -26,7 +26,57 @@
       "offer": "Enjoy 25% off with Mastercard Credit Card",
       "validity": "Valid till 31st July 2026",
       "category": "Dining",
-      "source": "scraped",
+      "source": "carried",
+      "sourceName": "ntb-credit"
+    },
+    {
+      "bank": "NTB",
+      "card": "NTB Credit",
+      "merchant": "KFC",
+      "offer": "30% off with Mastercard Credit Cards",
+      "validity": "Valid every Saturday till 31st August 2026",
+      "category": "Dining",
+      "source": "carried",
+      "sourceName": "ntb-credit"
+    },
+    {
+      "bank": "NTB",
+      "card": "NTB Credit",
+      "merchant": "CCC - Food Studio",
+      "offer": "Enjoy 25% off with Mastercard Credit Cards",
+      "validity": "Valid till 31st July 2026",
+      "category": "Dining",
+      "source": "carried",
+      "sourceName": "ntb-credit"
+    },
+    {
+      "bank": "NTB",
+      "card": "NTB Credit",
+      "merchant": "Best Western Elyon Colombo - Vu Resto-Bar",
+      "offer": "Enjoy 20% off with Mastercard Credit Card",
+      "validity": "Valid till 30th November 2026",
+      "category": "Dining",
+      "source": "carried",
+      "sourceName": "ntb-credit"
+    },
+    {
+      "bank": "NTB",
+      "card": "NTB Credit",
+      "merchant": "Burger King",
+      "offer": "Enjoy 20% off for Nations Trust Credit Cards 10% off for Debit Cards on total bills",
+      "validity": "Valid till 31st August 2026",
+      "category": "Dining",
+      "source": "carried",
+      "sourceName": "ntb-credit"
+    },
+    {
+      "bank": "NTB",
+      "card": "NTB Credit",
+      "merchant": "Crystal Jade",
+      "offer": "Enjoy 25% off for Nations Trust Credit Cards 10% off for Debit Cards on total bills",
+      "validity": "Valid till 31st August 2026",
+      "category": "Dining",
+      "source": "carried",
       "sourceName": "ntb-credit"
     },
     {
@@ -86,7 +136,37 @@
       "offer": "Enjoy 15% off with Mastercard Credit Cards",
       "validity": "Valid till 31st July 2026",
       "category": "Dining",
-      "source": "scraped",
+      "source": "carried",
+      "sourceName": "ntb-credit"
+    },
+    {
+      "bank": "NTB",
+      "card": "NTB Credit",
+      "merchant": "Delifrance",
+      "offer": "Enjoy 20% off for Nations Trust Credit Cards 10% off for Debit Cards on total bills",
+      "validity": "Valid till 31st August 2026",
+      "category": "Dining",
+      "source": "carried",
+      "sourceName": "ntb-credit"
+    },
+    {
+      "bank": "NTB",
+      "card": "NTB Credit",
+      "merchant": "Popeyes",
+      "offer": "Enjoy 20% off for Nations Trust Credit Cards 10% off for Debit Cards on total bills",
+      "validity": "Valid till 31st August 2026",
+      "category": "Dining",
+      "source": "carried",
+      "sourceName": "ntb-credit"
+    },
+    {
+      "bank": "NTB",
+      "card": "NTB Credit",
+      "merchant": "Subway",
+      "offer": "Enjoy 20% off for Nations Trust Credit Cards 10% off for Debit Cards on total bills",
+      "validity": "Valid till 31st August 2026",
+      "category": "Dining",
+      "source": "carried",
       "sourceName": "ntb-credit"
     },
     {
