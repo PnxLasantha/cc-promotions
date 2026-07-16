@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-15T13:39:03.871Z",
+  "updatedAt": "2026-07-16T02:22:07.869Z",
   "staticSourcedAt": "2026-06-29",
   "sourceStatus": {
     "ntb-credit": {
@@ -9,8 +9,8 @@
     },
     "amex": {
       "status": "ok",
-      "count": 136,
-      "previousCount": 135
+      "count": 131,
+      "previousCount": 136
     },
     "seylan": {
       "status": "ok",
@@ -512,39 +512,9 @@
     {
       "bank": "NTB",
       "card": "NTB Credit",
-      "merchant": "Hide Ella Hotel and Resort",
-      "offer": "40% off with Mastercard Credit Cards",
-      "validity": "Valid from 1st May to 15th July 2026",
-      "category": "Hotel",
-      "source": "carried",
-      "sourceName": "ntb-credit"
-    },
-    {
-      "bank": "NTB",
-      "card": "NTB Credit",
       "merchant": "Athulya Villa, Kandy",
       "offer": "25% off with Mastercard Credit & Debit Cards",
       "validity": "Valid till 31st January 2027",
-      "category": "Hotel",
-      "source": "carried",
-      "sourceName": "ntb-credit"
-    },
-    {
-      "bank": "NTB",
-      "card": "NTB Credit",
-      "merchant": "The Golden Crown Hotel, Kandy",
-      "offer": "25% off with Mastercard Credit Cards",
-      "validity": "Valid from 1st May to 15th July 2026",
-      "category": "Hotel",
-      "source": "carried",
-      "sourceName": "ntb-credit"
-    },
-    {
-      "bank": "NTB",
-      "card": "NTB Credit",
-      "merchant": "The Golden Ridge, Nuwara Eliya",
-      "offer": "20% off with Mastercard Credit Cards",
-      "validity": "Valid from 1st May to 15th July 2026",
       "category": "Hotel",
       "source": "carried",
       "sourceName": "ntb-credit"
@@ -632,16 +602,6 @@
     {
       "bank": "NTB",
       "card": "NTB Credit",
-      "merchant": "Sigiriya Jungles Resort & Spa",
-      "offer": "Up to 35% off with Mastercard Credit & Debit Cards",
-      "validity": "Valid till 15th July 2026",
-      "category": "Hotel",
-      "source": "carried",
-      "sourceName": "ntb-credit"
-    },
-    {
-      "bank": "NTB",
-      "card": "NTB Credit",
       "merchant": "Simpson’s Forest – Luxury Boutique Resort & Spa, Kandy",
       "offer": "25% off with Mastercard Credit & Debit Cards",
       "validity": "Valid till 31st October 2026",
@@ -655,16 +615,6 @@
       "merchant": "Aprota Villas",
       "offer": "25% off with Mastercard Credit Cards",
       "validity": "Valid till 31st December 2026",
-      "category": "Hotel",
-      "source": "carried",
-      "sourceName": "ntb-credit"
-    },
-    {
-      "bank": "NTB",
-      "card": "NTB Credit",
-      "merchant": "Elephant Reach Hotel",
-      "offer": "25% off with Mastercard Credit Card",
-      "validity": "Valid from 15th May to 15th July 2026",
       "category": "Hotel",
       "source": "carried",
       "sourceName": "ntb-credit"
@@ -1562,16 +1512,6 @@
     {
       "bank": "NTB",
       "card": "Amex",
-      "merchant": "Elephant Reach Yala",
-      "offer": "25% savings",
-      "validity": "Valid from 15th May to  15th July 2026",
-      "category": "Hotel",
-      "source": "scraped",
-      "sourceName": "amex"
-    },
-    {
-      "bank": "NTB",
-      "card": "Amex",
       "merchant": "Simpson's Forest - Luxury Boutique Resort & Spa",
       "offer": "25% savings",
       "validity": "Valid till 31st October 2026",
@@ -1602,26 +1542,6 @@
     {
       "bank": "NTB",
       "card": "Amex",
-      "merchant": "The Golden Crown Hotel",
-      "offer": "25% Savings",
-      "validity": "Valid from 1st May to 15th July 2026",
-      "category": "Hotel",
-      "source": "scraped",
-      "sourceName": "amex"
-    },
-    {
-      "bank": "NTB",
-      "card": "Amex",
-      "merchant": "The Golden Ridge Hotel Nuwara Eliya",
-      "offer": "20% Savings",
-      "validity": "Valid from 1st May to  15th July 2026",
-      "category": "Hotel",
-      "source": "scraped",
-      "sourceName": "amex"
-    },
-    {
-      "bank": "NTB",
-      "card": "Amex",
       "merchant": "Ard Lui Residence",
       "offer": "30% Savings",
       "validity": "Valid till 31st July 2026",
@@ -1635,16 +1555,6 @@
       "merchant": "Randiya Sea View Hotel",
       "offer": "20% Savings",
       "validity": "Valid till 30th November 2026",
-      "category": "Hotel",
-      "source": "scraped",
-      "sourceName": "amex"
-    },
-    {
-      "bank": "NTB",
-      "card": "Amex",
-      "merchant": "Sigiriya Jungles Resort & Spa",
-      "offer": "Up to 35% Savings",
-      "validity": "Valid till 15th July 2026",
       "category": "Hotel",
       "source": "scraped",
       "sourceName": "amex"
@@ -1805,16 +1715,6 @@
       "merchant": "Courtyard by Marriott Colombo - Banquet Halls",
       "offer": "25% Savings",
       "validity": "Valid till 31st October 2026",
-      "category": "Hotel",
-      "source": "scraped",
-      "sourceName": "amex"
-    },
-    {
-      "bank": "NTB",
-      "card": "Amex",
-      "merchant": "Hide Ella Hotel and Resort",
-      "offer": "Up to 40% Savings",
-      "validity": "Valid from 1st May to 15th July 2026",
       "category": "Hotel",
       "source": "scraped",
       "sourceName": "amex"
@@ -2321,17 +2221,6 @@
     {
       "bank": "NTB",
       "card": "NTB Credit",
-      "merchant": "Anantaya Resorts & Spa - Pasikudah",
-      "offer": "Up to 50% off",
-      "validity": "Until 15 Jul 2026",
-      "category": "Hotel",
-      "source": "static",
-      "sourceName": "ntb-hotels-static",
-      "sourcedAt": "2026-06-29"
-    },
-    {
-      "bank": "NTB",
-      "card": "NTB Credit",
       "merchant": "Anantaya Resorts & Spa - Chilaw",
       "offer": "Up to 50% off",
       "validity": "Until 30 Aug 2026",
@@ -2497,42 +2386,9 @@
     {
       "bank": "NTB",
       "card": "NTB Credit",
-      "merchant": "Hide Ella Hotel and Resort",
-      "offer": "40% off",
-      "validity": "1 May – 15 Jul 2026",
-      "category": "Hotel",
-      "source": "static",
-      "sourceName": "ntb-hotels-static",
-      "sourcedAt": "2026-06-29"
-    },
-    {
-      "bank": "NTB",
-      "card": "NTB Credit",
       "merchant": "Wild Culture Yala",
       "offer": "25% off",
       "validity": "1 May – 31 Oct 2026",
-      "category": "Hotel",
-      "source": "static",
-      "sourceName": "ntb-hotels-static",
-      "sourcedAt": "2026-06-29"
-    },
-    {
-      "bank": "NTB",
-      "card": "NTB Credit",
-      "merchant": "The Golden Crown Hotel, Kandy",
-      "offer": "25% off",
-      "validity": "1 May – 15 Jul 2026",
-      "category": "Hotel",
-      "source": "static",
-      "sourceName": "ntb-hotels-static",
-      "sourcedAt": "2026-06-29"
-    },
-    {
-      "bank": "NTB",
-      "card": "NTB Credit",
-      "merchant": "The Golden Ridge, Nuwara Eliya",
-      "offer": "20% off",
-      "validity": "1 May – 15 Jul 2026",
       "category": "Hotel",
       "source": "static",
       "sourceName": "ntb-hotels-static",
@@ -2629,17 +2485,6 @@
     {
       "bank": "NTB",
       "card": "NTB Credit",
-      "merchant": "Sigiriya Jungles Resort & Spa",
-      "offer": "Up to 35% off",
-      "validity": "Until 15 Jul 2026",
-      "category": "Hotel",
-      "source": "static",
-      "sourceName": "ntb-hotels-static",
-      "sourcedAt": "2026-06-29"
-    },
-    {
-      "bank": "NTB",
-      "card": "NTB Credit",
       "merchant": "Simpson's Forest Luxury Boutique Resort & Spa, Kandy",
       "offer": "25% off",
       "validity": "Until 31 Oct 2026",
@@ -2654,17 +2499,6 @@
       "merchant": "Aprota Villas",
       "offer": "25% off",
       "validity": "Until 31 Dec 2026",
-      "category": "Hotel",
-      "source": "static",
-      "sourceName": "ntb-hotels-static",
-      "sourcedAt": "2026-06-29"
-    },
-    {
-      "bank": "NTB",
-      "card": "NTB Credit",
-      "merchant": "Elephant Reach Hotel",
-      "offer": "25% off",
-      "validity": "15 May – 15 Jul 2026",
       "category": "Hotel",
       "source": "static",
       "sourceName": "ntb-hotels-static",
