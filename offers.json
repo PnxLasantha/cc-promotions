@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-16T02:22:07.869Z",
+  "updatedAt": "2026-07-16T13:45:31.576Z",
   "staticSourcedAt": "2026-06-29",
   "sourceStatus": {
     "ntb-credit": {
@@ -10,11 +10,11 @@
     "amex": {
       "status": "ok",
       "count": 131,
-      "previousCount": 136
+      "previousCount": 131
     },
     "seylan": {
       "status": "ok",
-      "count": 35,
+      "count": 36,
       "previousCount": 35
     }
   },
@@ -1904,6 +1904,16 @@
       "card": "Seylan Credit",
       "merchant": "Centauria  Resorts",
       "offer": "UP TO 20% OFF WITH YOUR SEYLAN CARDS...",
+      "validity": "",
+      "category": "Hotel",
+      "source": "scraped",
+      "sourceName": "seylan"
+    },
+    {
+      "bank": "Seylan",
+      "card": "Seylan Credit",
+      "merchant": "Amagi Hotels",
+      "offer": "UP TO 20%  OFF WITH YOUR SEYLAN CREDIT & DEBIT CARDS...",
       "validity": "",
       "category": "Hotel",
       "source": "scraped",
