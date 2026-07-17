@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-16T13:45:31.576Z",
+  "updatedAt": "2026-07-17T02:25:15.890Z",
   "staticSourcedAt": "2026-06-29",
   "sourceStatus": {
     "ntb-credit": {
@@ -15,7 +15,7 @@
     "seylan": {
       "status": "ok",
       "count": 36,
-      "previousCount": 35
+      "previousCount": 36
     }
   },
   "offers": [
