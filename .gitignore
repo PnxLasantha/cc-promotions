@@ -10,3 +10,4 @@ node_modules/
 # Debug/one-time scripts
 inspect*.js
 merge-ntb-hotels.js
+ntb-debug.html

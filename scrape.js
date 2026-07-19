@@ -28,11 +28,12 @@ async function autoScroll(page) {
 // (no scroll needed to reach all 71 cards), autoScroll kept only as insurance.
 async function scrapeNTB(page) {
   console.log('  NTB promotions page...');
-  await page.goto('https://www.nationstrust.com/promotions', { waitUntil: 'load', timeout: 60000 });
+  const response = await page.goto('https://www.nationstrust.com/promotions', { waitUntil: 'load', timeout: 60000 });
+  console.log(`  NTB response status: ${response ? response.status() : 'no response'}`);
   await page.waitForTimeout(2000);
   await autoScroll(page);
 
-  return page.evaluate(() => {
+  const results = await page.evaluate(() => {
     const CATEGORY_MAP = { 'Dining': 'Dining', 'Hotels & Resorts': 'Hotel' };
     const CATEGORY_LABELS = Object.keys(CATEGORY_MAP);
     const results = [];
@@ -75,6 +76,14 @@ async function scrapeNTB(page) {
 
     return results;
   });
+
+  if (results.length === 0) {
+    const html = await page.content();
+    fs.writeFileSync('ntb-debug.html', html);
+    console.log(`  NTB returned 0 offers — dumped page HTML to ntb-debug.html (${html.length} bytes)`);
+  }
+
+  return results;
 }
 
 async function scrapeAmex(page, url, category) {
