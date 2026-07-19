@@ -35,6 +35,18 @@ jobs:
         continue-on-error: true
         run: node scrape.js
 
+      # Diagnostic only — scrapeNTB writes this when it returns 0 offers, so we
+      # can see whether NTB is serving a bot-block/challenge page to the runner
+      # or genuinely changed markup. Not committed (see .gitignore).
+      - name: Upload NTB debug HTML
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: ntb-debug-html
+          path: ntb-debug.html
+          if-no-files-found: ignore
+          retention-days: 7
+
       # Bad data must not ship — this blocks the commit if it fails.
       - name: Validate generated offers
         run: npm run validate
