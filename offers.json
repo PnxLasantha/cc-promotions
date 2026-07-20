@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-20T02:42:40.374Z",
+  "updatedAt": "2026-07-20T14:00:43.311Z",
   "staticSourcedAt": "2026-06-29",
   "sourceStatus": {
     "ntb-credit": {
@@ -9,12 +9,12 @@
     },
     "amex": {
       "status": "ok",
-      "count": 128,
-      "previousCount": 131
+      "count": 138,
+      "previousCount": 128
     },
     "seylan": {
       "status": "ok",
-      "count": 36,
+      "count": 35,
       "previousCount": 36
     }
   },
@@ -1172,9 +1172,9 @@
     {
       "bank": "NTB",
       "card": "Amex",
-      "merchant": "Anantaya Resort & Spa, Chilaw",
-      "offer": "Up to 50% savings",
-      "validity": "Valid till 31st July 2026",
+      "merchant": "Taru Villas - The Long House",
+      "offer": "Companion Stays Free",
+      "validity": "Valid from 6th to 08th August 2026",
       "category": "Hotel",
       "source": "scraped",
       "sourceName": "amex"
@@ -1225,6 +1225,26 @@
       "merchant": "Anantara Kalutara Resort",
       "offer": "Special Savings",
       "validity": "Valid till 25th July 2026",
+      "category": "Hotel",
+      "source": "scraped",
+      "sourceName": "amex"
+    },
+    {
+      "bank": "NTB",
+      "card": "Amex",
+      "merchant": "Anantaya Resort & Spa, Chilaw",
+      "offer": "Up to 50% savings",
+      "validity": "Valid till 31st July 2026",
+      "category": "Hotel",
+      "source": "scraped",
+      "sourceName": "amex"
+    },
+    {
+      "bank": "NTB",
+      "card": "Amex",
+      "merchant": "Taru Villas",
+      "offer": "Companion Stays Free",
+      "validity": "Valid from 6th to 08th August 2026",
       "category": "Hotel",
       "source": "scraped",
       "sourceName": "amex"
@@ -1322,6 +1342,16 @@
     {
       "bank": "NTB",
       "card": "Amex",
+      "merchant": "Royal Beach Hotel",
+      "offer": "40% Savings",
+      "validity": "Valid till 31st October 2026",
+      "category": "Hotel",
+      "source": "scraped",
+      "sourceName": "amex"
+    },
+    {
+      "bank": "NTB",
+      "card": "Amex",
       "merchant": "Aarunya Nature Resort & Spa",
       "offer": "Special Savings",
       "validity": "Valid till 31st October 2026",
@@ -1375,6 +1405,16 @@
       "merchant": "The Postcard Galle",
       "offer": "Special Savings",
       "validity": "Valid till  31st July 2026",
+      "category": "Hotel",
+      "source": "scraped",
+      "sourceName": "amex"
+    },
+    {
+      "bank": "NTB",
+      "card": "Amex",
+      "merchant": "Laya Safari Army Welfare Holiday Resort",
+      "offer": "Upto 25% Savings",
+      "validity": "",
       "category": "Hotel",
       "source": "scraped",
       "sourceName": "amex"
@@ -1445,6 +1485,16 @@
       "merchant": "Thaha's at Galle Fort",
       "offer": "10% Savings",
       "validity": "Valid till 30th June 2027",
+      "category": "Hotel",
+      "source": "scraped",
+      "sourceName": "amex"
+    },
+    {
+      "bank": "NTB",
+      "card": "Amex",
+      "merchant": "Uppuveli Beach By DSK",
+      "offer": "15% Savings",
+      "validity": "Valid from 1st October 2026 to 31st March 2027",
       "category": "Hotel",
       "source": "scraped",
       "sourceName": "amex"
@@ -1642,9 +1692,19 @@
     {
       "bank": "NTB",
       "card": "Amex",
+      "merchant": "Hibiscus Beach Hotel",
+      "offer": "20% Savings",
+      "validity": "Valid till 31st October 2026",
+      "category": "Hotel",
+      "source": "scraped",
+      "sourceName": "amex"
+    },
+    {
+      "bank": "NTB",
+      "card": "Amex",
       "merchant": "Amagi Aria",
       "offer": "Up to 20% Savings",
-      "validity": "Valid till 31st July 2026",
+      "validity": "Valid from 1st August to 31st October 2026",
       "category": "Hotel",
       "source": "scraped",
       "sourceName": "amex"
@@ -1653,8 +1713,8 @@
       "bank": "NTB",
       "card": "Amex",
       "merchant": "Amagi Beach",
-      "offer": "Up to 20% Savings",
-      "validity": "Valid till  31st July 2026",
+      "offer": "20% Savings",
+      "validity": "Valid from 1st August to 31st October 2026",
       "category": "Hotel",
       "source": "scraped",
       "sourceName": "amex"
@@ -1864,16 +1924,6 @@
       "card": "Seylan Credit",
       "merchant": "AMAARA HOTELS",
       "offer": "Up to 40% off or Seylan Credit & Debit Cards...",
-      "validity": "",
-      "category": "Hotel",
-      "source": "scraped",
-      "sourceName": "seylan"
-    },
-    {
-      "bank": "Seylan",
-      "card": "Seylan Credit",
-      "merchant": "VILLA GREEN COCOS",
-      "offer": "25%  off with your Seylan Credit & Debit Cards...",
       "validity": "",
       "category": "Hotel",
       "source": "scraped",
