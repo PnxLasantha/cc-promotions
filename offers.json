@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-19T13:12:28.405Z",
+  "updatedAt": "2026-07-20T02:42:40.374Z",
   "staticSourcedAt": "2026-06-29",
   "sourceStatus": {
     "ntb-credit": {
@@ -9,7 +9,7 @@
     },
     "amex": {
       "status": "ok",
-      "count": 131,
+      "count": 128,
       "previousCount": 131
     },
     "seylan": {
@@ -1172,8 +1172,8 @@
     {
       "bank": "NTB",
       "card": "Amex",
-      "merchant": "Anantaya Resort & Spa, Pasikudah",
-      "offer": "20% Savings",
+      "merchant": "Anantaya Resort & Spa, Chilaw",
+      "offer": "Up to 50% savings",
       "validity": "Valid till 31st July 2026",
       "category": "Hotel",
       "source": "scraped",
@@ -1182,9 +1182,9 @@
     {
       "bank": "NTB",
       "card": "Amex",
-      "merchant": "Hilton Yala Resort",
-      "offer": "50% Savings",
-      "validity": "Valid from 3rd to 19th July 2026",
+      "merchant": "Anantaya Resort & Spa, Pasikudah",
+      "offer": "20% Savings",
+      "validity": "Valid till 31st July 2026",
       "category": "Hotel",
       "source": "scraped",
       "sourceName": "amex"
@@ -1225,16 +1225,6 @@
       "merchant": "Anantara Kalutara Resort",
       "offer": "Special Savings",
       "validity": "Valid till 25th July 2026",
-      "category": "Hotel",
-      "source": "scraped",
-      "sourceName": "amex"
-    },
-    {
-      "bank": "NTB",
-      "card": "Amex",
-      "merchant": "Anantaya Resort & Spa, Chilaw",
-      "offer": "Up to 50% savings",
-      "validity": "Valid till 31st July 2026",
       "category": "Hotel",
       "source": "scraped",
       "sourceName": "amex"
