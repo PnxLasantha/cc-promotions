@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-21T02:26:28.021Z",
+  "updatedAt": "2026-07-21T13:43:43.182Z",
   "staticSourcedAt": "2026-06-29",
   "sourceStatus": {
     "ntb-credit": {
@@ -9,7 +9,7 @@
     },
     "amex": {
       "status": "ok",
-      "count": 138,
+      "count": 139,
       "previousCount": 138
     },
     "seylan": {
@@ -1172,9 +1172,9 @@
     {
       "bank": "NTB",
       "card": "Amex",
-      "merchant": "Taru Villas - The Long House",
-      "offer": "Companion Stays Free",
-      "validity": "Valid from 6th to 08th August 2026",
+      "merchant": "Anantaya Resort & Spa, Pasikudah",
+      "offer": "20% Savings",
+      "validity": "Valid till 31st July 2026",
       "category": "Hotel",
       "source": "scraped",
       "sourceName": "amex"
@@ -1182,9 +1182,9 @@
     {
       "bank": "NTB",
       "card": "Amex",
-      "merchant": "Anantaya Resort & Spa, Pasikudah",
-      "offer": "20% Savings",
-      "validity": "Valid till 31st July 2026",
+      "merchant": "Amaara Forest Hotel",
+      "offer": "40% Savings",
+      "validity": "Valid till  31st October 2026",
       "category": "Hotel",
       "source": "scraped",
       "sourceName": "amex"
@@ -1565,6 +1565,16 @@
       "merchant": "The Manor",
       "offer": "10% Savings",
       "validity": "Valid till 30th April 2027",
+      "category": "Hotel",
+      "source": "scraped",
+      "sourceName": "amex"
+    },
+    {
+      "bank": "NTB",
+      "card": "Amex",
+      "merchant": "Mount Lavinia Hotel",
+      "offer": "20% Savings",
+      "validity": "Valid till 31st August 2026",
       "category": "Hotel",
       "source": "scraped",
       "sourceName": "amex"
