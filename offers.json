@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-21T13:43:43.182Z",
+  "updatedAt": "2026-07-22T02:24:45.775Z",
   "staticSourcedAt": "2026-06-29",
   "sourceStatus": {
     "ntb-credit": {
@@ -10,7 +10,7 @@
     "amex": {
       "status": "ok",
       "count": 139,
-      "previousCount": 138
+      "previousCount": 139
     },
     "seylan": {
       "status": "ok",
