@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-22T02:24:45.775Z",
+  "updatedAt": "2026-07-22T13:45:59.027Z",
   "staticSourcedAt": "2026-06-29",
   "sourceStatus": {
     "ntb-credit": {
@@ -9,7 +9,7 @@
     },
     "amex": {
       "status": "ok",
-      "count": 139,
+      "count": 149,
       "previousCount": 139
     },
     "seylan": {
@@ -1172,9 +1172,9 @@
     {
       "bank": "NTB",
       "card": "Amex",
-      "merchant": "Anantaya Resort & Spa, Pasikudah",
-      "offer": "20% Savings",
-      "validity": "Valid till 31st July 2026",
+      "merchant": "Amaara Forest Hotel",
+      "offer": "40% Savings",
+      "validity": "Valid till  31st October 2026",
       "category": "Hotel",
       "source": "scraped",
       "sourceName": "amex"
@@ -1182,9 +1182,9 @@
     {
       "bank": "NTB",
       "card": "Amex",
-      "merchant": "Amaara Forest Hotel",
+      "merchant": "Amaara Sky Hotel",
       "offer": "40% Savings",
-      "validity": "Valid till  31st October 2026",
+      "validity": "Valid till 31st October 2026",
       "category": "Hotel",
       "source": "scraped",
       "sourceName": "amex"
@@ -1242,6 +1242,16 @@
     {
       "bank": "NTB",
       "card": "Amex",
+      "merchant": "Cinnamon Sri Lanka Resorts",
+      "offer": "FLASH OFFER",
+      "validity": "Valid from 9th to  11th August 2026",
+      "category": "Hotel",
+      "source": "scraped",
+      "sourceName": "amex"
+    },
+    {
+      "bank": "NTB",
+      "card": "Amex",
       "merchant": "Taru Villas",
       "offer": "Companion Stays Free",
       "validity": "Valid from 6th to 08th August 2026",
@@ -1252,9 +1262,49 @@
     {
       "bank": "NTB",
       "card": "Amex",
+      "merchant": "Anantaya Resort & Spa, Pasikudah",
+      "offer": "20% Savings",
+      "validity": "Valid till 31st July 2026",
+      "category": "Hotel",
+      "source": "scraped",
+      "sourceName": "amex"
+    },
+    {
+      "bank": "NTB",
+      "card": "Amex",
       "merchant": "Wattura Resort & Spa",
       "offer": "Up to 35% savings",
       "validity": "Valid till 15th December 2026",
+      "category": "Hotel",
+      "source": "scraped",
+      "sourceName": "amex"
+    },
+    {
+      "bank": "NTB",
+      "card": "Amex",
+      "merchant": "Melheim Beach - Kalpitiya",
+      "offer": "Upto 60% Savings",
+      "validity": "Valid till  30th September 2026",
+      "category": "Hotel",
+      "source": "scraped",
+      "sourceName": "amex"
+    },
+    {
+      "bank": "NTB",
+      "card": "Amex",
+      "merchant": "Melheim Villas - Kandy",
+      "offer": "Upto 60% Savings",
+      "validity": "Valid till 30th September 2026",
+      "category": "Hotel",
+      "source": "scraped",
+      "sourceName": "amex"
+    },
+    {
+      "bank": "NTB",
+      "card": "Amex",
+      "merchant": "Melheim Resort and Spa - Haputale",
+      "offer": "Upto 60% Savings",
+      "validity": "Valid till 30th September 2026",
       "category": "Hotel",
       "source": "scraped",
       "sourceName": "amex"
@@ -1815,6 +1865,16 @@
       "merchant": "Aditya Resort",
       "offer": "20% Savings",
       "validity": "Valid from 1st May to 30th November 2026",
+      "category": "Hotel",
+      "source": "scraped",
+      "sourceName": "amex"
+    },
+    {
+      "bank": "NTB",
+      "card": "Amex",
+      "merchant": "Tropical Life Resort and Spa - Dambulla",
+      "offer": "35% Savings",
+      "validity": "Valid till 30th September 2026",
       "category": "Hotel",
       "source": "scraped",
       "sourceName": "amex"
